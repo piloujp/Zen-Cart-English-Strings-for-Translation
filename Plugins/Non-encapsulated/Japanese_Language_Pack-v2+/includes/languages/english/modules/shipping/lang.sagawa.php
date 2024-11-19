@@ -1,0 +1,45 @@
+<?php
+$define = [
+    'MODULE_SHIPPING_SAGAWA_TEXT_TITLE' => 'Sagawa Express 1-4 days',
+    'MODULE_SHIPPING_SAGAWA_TEXT_DESCRIPTION' => 'Sagawa Express\' settings',
+    'MODULE_SHIPPING_SAGAWA_TEXT_WAY_NORMAL' => 'Standard',
+    'MODULE_SHIPPING_SAGAWA_TEXT_WAY_COOL' => 'Cool Express',
+    'MODULE_SHIPPING_SAGAWA_TEXT_WAY_TOP' => 'Air Mail / Top Express',
+    'MODULE_SHIPPING_SAGAWA_TEXT_NOTAVAILABLE' => 'This service is not offered between selected regions.',
+    'MODULE_SHIPPING_SAGAWA_TEXT_OVERSIZE' => 'Weight or size exceeds limits.',
+    'MODULE_SHIPPING_SAGAWA_TEXT_ILLEGAL_ZONE' => 'Incorrect prefecture specified.',
+    'MODULE_SHIPPING_SAGAWA_TEXT_OUT_OF_AREA' => 'Out of delivery area.',
+//bof constant configuration titles and descriptions for Sagawa Shipping
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_STATUS' => 'Enable Sagawa shipping method',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_STATUS' => 'Do you want to offer Sagawa rate shipping?',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_HANDLING' => 'Handling Fee',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_HANDLING' => 'Handling fee for this shipping method.',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_MAX_WEIGHT' => 'Max shipping weight',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_MAX_WEIGHT' => 'Maximum weight that can be ship with this method.',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_MAX_GIRTH' => 'Max shipping girth',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_MAX_GIRTH' => 'Maximum size (girth) that can be ship with this method.',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_FREE_SHIPPING' => 'Free shipping settings',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_FREE_SHIPPING' => 'Would you like to activate the free shipping setting?Select False to give priority to other modules [Shipping cost]-[Free options]...',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_OVER' => 'Minimum order for free shipping',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_OVER' => 'If you purchase more than the set amount, shipping will be free.',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_TAX_CLASS' => 'Tax Class',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_TAX_CLASS' => 'Use the following tax class on the shipping fee.',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_TAX_BASIS' => 'Tax Basis',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_TAX_BASIS' => 'On what basis is Shipping Tax calculated. Options are<br>Shipping - Based on customers Shipping Address<br>Billing Based on customers Billing address<br>Store - Based on Store address if Billing/Shipping Zone equals Store zone',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_ZONE' => 'Shipping Zone',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_ZONE' => 'If a zone is selected, only enable this shipping method for that zone.',
+    'CFGTITLE_MODULE_SHIPPING_SAGAWA_SORT_ORDER' => 'Sort Order',
+    'CFGDESC_MODULE_SHIPPING_SAGAWA_SORT_ORDER' => 'Sort order of display.',
+//eof constant configuration titles and descriptions for Sagawa Shipping
+];
+$GLOBALS['a_sagawa_time']=array(
+  array('id'=>'none','text'=>'none'),
+  array('id'=>'Morning','text'=>'Morning'),
+  array('id'=>'12h-14h','text'=>'12h-14h'),
+  array('id'=>'14h-16h','text'=>'14h-16h'),
+  array('id'=>'16h-18h','text'=>'16h-18h'),
+  array('id'=>'18h-20h','text'=>'18h-20h'),
+  array('id'=>'18h-21h','text'=>'18h-21h'),
+  array('id'=>'19h-21h','text'=>'19h-21h'),
+);
+return $define;
