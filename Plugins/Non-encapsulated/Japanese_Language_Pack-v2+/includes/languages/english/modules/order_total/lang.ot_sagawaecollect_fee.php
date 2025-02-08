@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_TITLE' => 'Sagawa COD Fee',
-	'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_DESCRIPTION' => 'Sagawa COD Fee',
-	'TEXT_INFO_SAGAWAECOLLECT_FEES' => '<strong>Note:</strong> Handling fees may apply',
+    'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_TITLE' => 'Sagawa COD Fee',
+    'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_DESCRIPTION' => 'Sagawa COD Fee',
+    'TEXT_INFO_SAGAWAECOLLECT_FEES' => '<strong>Note:</strong> Handling fees may apply',
 //bof constant configuration titles and descriptions for ot_sagawaecollect_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_SAGAWAECOLLECT_STATUS' => 'Display SAGAWAECOLLECT',
     'CFGDESC_MODULE_ORDER_TOTAL_SAGAWAECOLLECT_STATUS' => 'Do you want this module to display?',

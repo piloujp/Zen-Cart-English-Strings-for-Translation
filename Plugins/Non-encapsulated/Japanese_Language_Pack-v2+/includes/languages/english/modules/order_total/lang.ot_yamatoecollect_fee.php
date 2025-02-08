@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_ORDER_TOTAL_YAMATOECOLLECT_TITLE' => 'Yamato COD Fee',
-	'MODULE_ORDER_TOTAL_YAMATOECOLLECT_DESCRIPTION' => 'Yamato COD Fee',
-	'TEXT_INFO_YAMATOECOLLECT_FEES' => '<strong>Note:</strong> Handling fees may apply',
+    'MODULE_ORDER_TOTAL_YAMATOECOLLECT_TITLE' => 'Yamato COD Fee',
+    'MODULE_ORDER_TOTAL_YAMATOECOLLECT_DESCRIPTION' => 'Yamato COD Fee',
+    'TEXT_INFO_YAMATOECOLLECT_FEES' => '<strong>Note:</strong> Handling fees may apply',
 //bof constant configuration titles and descriptions for ot_yamatoecollect_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_YAMATOECOLLECT_STATUS' => 'Display YAMATOECOLLECT',
     'CFGDESC_MODULE_ORDER_TOTAL_YAMATOECOLLECT_STATUS' => 'Do you want this module to display?',

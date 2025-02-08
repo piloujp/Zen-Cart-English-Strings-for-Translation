@@ -1,14 +1,14 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_YUPACK_TEXT_TITLE' =>        'Yu-Pack 1-4 days',
-	'MODULE_SHIPPING_YUPACK_TEXT_DESCRIPTION' =>  'Japanese post\'s Yu-Pack\' settings',
-	'MODULE_SHIPPING_YUPACK_TEXT_WAY_NORMAL' =>   'Standard',
-	'MODULE_SHIPPING_YUPACK_TEXT_WAY_COOL' =>     'Cool Express',
-	'MODULE_SHIPPING_YUPACK_TEXT_WAY_TOP' =>      'Top Express',
-	'MODULE_SHIPPING_YUPACK_TEXT_NOTAVAILABLE' => 'Service is not available between these areas.',
-	'MODULE_SHIPPING_YUPACK_TEXT_OVERSIZE' =>     'Too large to delivery.',
-	'MODULE_SHIPPING_YUPACK_TEXT_ILLEGAL_ZONE' => 'Illegal zone.',
-	'MODULE_SHIPPING_YUPACK_TEXT_OUT_OF_AREA' =>  'Out of delivery area.',
+    'MODULE_SHIPPING_YUPACK_TEXT_TITLE' =>        'Yu-Pack 1-4 days',
+    'MODULE_SHIPPING_YUPACK_TEXT_DESCRIPTION' =>  'Japanese post\'s Yu-Pack\' settings',
+    'MODULE_SHIPPING_YUPACK_TEXT_WAY_NORMAL' =>   'Standard',
+    'MODULE_SHIPPING_YUPACK_TEXT_WAY_COOL' =>     'Cool Express',
+    'MODULE_SHIPPING_YUPACK_TEXT_WAY_TOP' =>      'Top Express',
+    'MODULE_SHIPPING_YUPACK_TEXT_NOTAVAILABLE' => 'Service is not available between these areas.',
+    'MODULE_SHIPPING_YUPACK_TEXT_OVERSIZE' =>     'Too large to delivery.',
+    'MODULE_SHIPPING_YUPACK_TEXT_ILLEGAL_ZONE' => 'Illegal zone.',
+    'MODULE_SHIPPING_YUPACK_TEXT_OUT_OF_AREA' =>  'Out of delivery area.',
 //bof constant configuration titles and descriptions for YuPack Shipping
     'CFGTITLE_MODULE_SHIPPING_YUPACK_STATUS' => 'Enable Yu-Pack shipping method',
     'CFGDESC_MODULE_SHIPPING_YUPACK_STATUS' => 'Do you want to offer Yu-Pack rate shipping?',

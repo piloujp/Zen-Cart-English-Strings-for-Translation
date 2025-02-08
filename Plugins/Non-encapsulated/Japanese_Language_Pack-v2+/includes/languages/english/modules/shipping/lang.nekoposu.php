@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_NEKOPOSU_TEXT_TITLE' => 'Yamato Nekoposu',
-	'MODULE_SHIPPING_NEKOPOSU_TEXT_DESCRIPTION' => 'Yamato Nekoposu\' settings',
-	'MODULE_SHIPPING_NEKOPOSU_TEXT_WAY' => 'All Japan for 385Yens',
+    'MODULE_SHIPPING_NEKOPOSU_TEXT_TITLE' => 'Yamato Nekoposu',
+    'MODULE_SHIPPING_NEKOPOSU_TEXT_DESCRIPTION' => 'Yamato Nekoposu\' settings',
+    'MODULE_SHIPPING_NEKOPOSU_TEXT_WAY' => 'All Japan for 385Yens',
 //bof constant configuration titles and descriptions for nekoposu Shipping
     'CFGTITLE_MODULE_SHIPPING_NEKOPOSU_STATUS' => 'Enable Nekoposu shipping method',
     'CFGDESC_MODULE_SHIPPING_NEKOPOSU_STATUS' => 'Do you want to offer Nekoposu rate shipping?',

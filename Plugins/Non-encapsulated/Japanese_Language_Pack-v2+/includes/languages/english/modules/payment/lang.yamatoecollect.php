@@ -1,7 +1,7 @@
 <?php
 $define = [
-	'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_TITLE' => 'Yamato Cash on Delivery',
-	'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_DESCRIPTION' => 'Yamato Cash on Delivery',
+    'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_TITLE' => 'Yamato Cash on Delivery',
+    'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_DESCRIPTION' => 'Yamato Cash on Delivery',
 // bof constant configuration titles and descriptions for payment module yamatoecollect
     'CFGTITLE_MODULE_PAYMENT_YAMATOECOLLECT_STATUS' => 'Enable Yamato Cash On Delivery Module',
     'CFGDESC_MODULE_PAYMENT_YAMATOECOLLECT_STATUS' => 'Do you want to accept Yamato Cash On Delivery payments?',

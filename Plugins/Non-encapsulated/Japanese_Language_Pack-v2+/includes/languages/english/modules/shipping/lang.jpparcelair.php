@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_JPPARCELAIR_TEXT_TITLE' =>        'International Parcels Air',
-	'MODULE_SHIPPING_JPPARCELAIR_TEXT_DESCRIPTION' =>  'International Parcels Air\' settings',
-	'MODULE_SHIPPING_JPPARCELAIR_TEXT_WAY_NORMAL' =>   'International Parcels Air (7-15 days)',
+    'MODULE_SHIPPING_JPPARCELAIR_TEXT_TITLE' =>        'International Parcels Air',
+    'MODULE_SHIPPING_JPPARCELAIR_TEXT_DESCRIPTION' =>  'International Parcels Air\' settings',
+    'MODULE_SHIPPING_JPPARCELAIR_TEXT_WAY_NORMAL' =>   'International Parcels Air (7-15 days)',
 //bof constant configuration titles and descriptions for jpParcelair Shipping
     'CFGTITLE_MODULE_SHIPPING_JPPARCELAIR_STATUS' => 'Enable International Parcels Air shipping method',
     'CFGDESC_MODULE_SHIPPING_JPPARCELAIR_STATUS' => 'Do you want to offer International Parcels Air rate shipping?',

@@ -1,7 +1,7 @@
 <?php
 $define = [
-	'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_TITLE' => 'Sagawa Cash on Delivery',
-	'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_DESCRIPTION' => 'Sagawa Cash on Delivery',
+    'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_TITLE' => 'Sagawa Cash on Delivery',
+    'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_DESCRIPTION' => 'Sagawa Cash on Delivery',
 // bof constant configuration titles and descriptions for payment module sagawaecollect
     'CFGTITLE_MODULE_PAYMENT_SAGAWAECOLLECT_STATUS' => 'Enable Sagawa Cash On Delivery Module',
     'CFGDESC_MODULE_PAYMENT_SAGAWAECOLLECT_STATUS' => 'Do you want to accept Sagawa Cash On Delivery payments?',

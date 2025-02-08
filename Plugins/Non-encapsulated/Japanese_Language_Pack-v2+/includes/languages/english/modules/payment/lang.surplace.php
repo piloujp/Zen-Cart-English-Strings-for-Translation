@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_PAYMENT_SURPLACE_TEXT_TITLE' => 'Payment at the shop',
-	'MODULE_PAYMENT_SURPLACE_TEXT_DESCRIPTION' => '<BR>Payment at the store or on the field.',
-	'MODULE_PAYMENT_SURPLACE_TEXT_EMAIL_FOOTER' => 'Please contact me to arrange a meeting.',
+    'MODULE_PAYMENT_SURPLACE_TEXT_TITLE' => 'Payment at the shop',
+    'MODULE_PAYMENT_SURPLACE_TEXT_DESCRIPTION' => '<BR>Payment at the store or on the field.',
+    'MODULE_PAYMENT_SURPLACE_TEXT_EMAIL_FOOTER' => 'Please contact me to arrange a meeting.',
 // bof constant configuration titles and descriptions for payment module surplace
     'CFGTITLE_MODULE_PAYMENT_SURPLACE_STATUS' => 'Enable shop payment',
     'CFGDESC_MODULE_PAYMENT_SURPLACE_STATUS' => 'Do you want to accept payment at the shop?',

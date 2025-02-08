@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_JPPARCELSEA_TEXT_TITLE' =>        'International Parcels Surface',
-	'MODULE_SHIPPING_JPPARCELSEA_TEXT_DESCRIPTION' =>  'International Parcels Surface\' settings',
-	'MODULE_SHIPPING_JPPARCELSEA_TEXT_WAY_NORMAL' =>   'International Parcels Surface (2-3 months)',
+    'MODULE_SHIPPING_JPPARCELSEA_TEXT_TITLE' =>        'International Parcels Surface',
+    'MODULE_SHIPPING_JPPARCELSEA_TEXT_DESCRIPTION' =>  'International Parcels Surface\' settings',
+    'MODULE_SHIPPING_JPPARCELSEA_TEXT_WAY_NORMAL' =>   'International Parcels Surface (2-3 months)',
 //bof constant configuration titles and descriptions for jpParcelsea Shipping
     'CFGTITLE_MODULE_SHIPPING_JPPARCELSEA_STATUS' => 'Enable International Parcels Surface shipping method',
     'CFGDESC_MODULE_SHIPPING_JPPARCELSEA_STATUS' => 'Do you want to offer International Parcels Surface rate shipping?',
