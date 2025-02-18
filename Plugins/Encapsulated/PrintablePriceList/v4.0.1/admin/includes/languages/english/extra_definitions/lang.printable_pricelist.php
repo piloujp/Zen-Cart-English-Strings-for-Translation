@@ -4,7 +4,7 @@ $define = [
     'ADMIN_PLUGIN_MANAGER_NAME_FOR_PRINTABLEPRICELIST' => 'Printable Price List',
     'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_PRINTABLEPRICELIST' => 'This drop-in plugin provides a printable price-list for your Zen Cart store. Up to 3 separate variations can be customized; see the plugin\'s readme.html file for additional information.',
 // Admin configuration group
-    'CFG_GRP_TITLE_PRINTABLE_PRICELIST' => 'Printable Price-list';
+    'CFG_GRP_TITLE_PRINTABLE_PRICELIST' => 'Printable Price-list',
     'CFG_GRP_TITLE_PRICELIST_PROFILE1' => 'Price-list Profile-1',
     'CFG_GRP_TITLE_PRICELIST_PROFILE2' => 'Price-list Profile-2',
     'CFG_GRP_TITLE_PRICELIST_PROFILE3' => 'Price-list Profile-3',
