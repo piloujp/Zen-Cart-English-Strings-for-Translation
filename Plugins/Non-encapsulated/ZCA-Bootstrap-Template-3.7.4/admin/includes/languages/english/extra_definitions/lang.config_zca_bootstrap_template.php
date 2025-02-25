@@ -9,7 +9,7 @@ $define = [
     'CFGDESC_COLUMN_WIDTH_LEFT' => 'Width of the Left Column<br>px may be included<br>Default = 150px<br><br><b>This configuration has no affect with the ZCA Responsive Components or ZCA Bootstrap Themes</b>',
     'CFGDESC_COLUMN_WIDTH_RIGHT' => 'Width of the Right Column<br>px may be included<br>Default = 150px<br><b>This configuration has no affect with the ZCA Responsive Components or ZCA Bootstrap Themes</b>',
     'CFGDESC_PRODUCT_LISTING_COLUMNS_PER_ROW' => 'Select the number of columns of products to show per row in the product listing.<br>Recommended: 3<br>1=[rows] mode.<br><br>For the <code>bootstrap</code> template, use 0 (fluid columns) or 1 (rows).<br>',
-// Boostrap configuration setings
+// Boostrap configuration settings
     'CFGTITLE_ZCA_BOOTSTRAP_VERSION' => 'Bootstrap Template Version',
     'CFGDESC_ZCA_BOOTSTRAP_VERSION' => 'Displays the template\'s current version.',
     'CFGTITLE_SET_COLUMN_LEFT_LAYOUT' => 'Responsive Left Column Width',
