@@ -1,0 +1,40 @@
+<?php
+
+$define = [
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_PACKAGETRACKER' => 'Ty Package Tracker',
+    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_PACKAGETRACKER' => 'This plugin adds the ability for your customers and admin to track packages from different carriers. See the plugin\'s <a href="https://github.com/lat9/zen_TyPackageTracker/wiki" target="_blank" rel="noopener noreferrer">Wiki</a> for additional information.',
+// Admin configuration
+    'CFGTITLE_CARRIER_STATUS_1' => 'Package Tracking - Carrier 1 Status',
+    'CFGDESC_CARRIER_STATUS_1' => 'Enable Tracking for Carrier 1<br><br>Set to false if you do NOT want Carrier 1 to be displayed on Admin and Customer page.',
+    'CFGTITLE_CARRIER_NAME_1' => 'Package Tracking - Carrier 1 Name',
+    'CFGDESC_CARRIER_NAME_1' => 'Enter name of Carrier 1<br><br><strong>Example:</strong> FedEx, UPS, Canada Post, etc...<br>(default: FedEx)',
+    'CFGTITLE_CARRIER_LINK_1' => 'Package Tracking - Carrier 1 Tracking Link',
+    'CFGDESC_CARRIER_LINK_1' => 'Enter the tracking link of Carrier 1<br><br><strong>Example:</strong> https://www.fedex.com/Tracking?action=track&tracknumbers=',
+    'CFGTITLE_CARRIER_STATUS_2' => 'Package Tracking - Carrier 2 Status',
+    'CFGDESC_CARRIER_STATUS_2' => 'Enable Tracking for Carrier 2<br><br>Set to false if you do NOT want Carrier 2 to be displayed on Admin and Customer page.',
+    'CFGTITLE_CARRIER_NAME_2' => 'Package Tracking - Carrier 2 Name',
+    'CFGDESC_CARRIER_NAME_2' => 'Enter name of Carrier 2<br><br><strong>Example:</strong> FedEx, UPS, Canada Post, etc...<br>(default: UPS)',
+    'CFGTITLE_CARRIER_LINK_2' => 'Package Tracking - Carrier 2 Tracking Link',
+    'CFGDESC_CARRIER_LINK_2' => 'Enter the tracking link of Carrier 2<br><br><strong>Example:</strong> https://www.fedex.com/Tracking?action=track&tracknumbers=',
+    'CFGTITLE_CARRIER_STATUS_3' => 'Package Tracking - Carrier 3 Status',
+    'CFGDESC_CARRIER_STATUS_3' => 'Enable Tracking for Carrier 3<br><br>Set to false if you do NOT want Carrier 3 to be displayed on Admin and Customer page.',
+    'CFGTITLE_CARRIER_NAME_3' => 'Package Tracking - Carrier 3 Name',
+    'CFGDESC_CARRIER_NAME_3' => 'Enter name of Carrier 3<br><br><strong>Example:</strong> FedEx, UPS, Canada Post, etc...<br>(default: USPS)',
+    'CFGTITLE_CARRIER_LINK_3' => 'Package Tracking - Carrier 3 Tracking Link',
+    'CFGDESC_CARRIER_LINK_3' => 'Enter the tracking link of Carrier 3<br><br><strong>Example:</strong> https://www.fedex.com/Tracking?action=track&tracknumbers=',
+    'CFGTITLE_CARRIER_STATUS_4' => 'Package Tracking - Carrier 4 Status',
+    'CFGDESC_CARRIER_STATUS_4' => 'Enable Tracking for Carrier 4<br><br>Set to false if you do NOT want Carrier 4 to be displayed on Admin and Customer page.',
+    'CFGTITLE_CARRIER_NAME_4' => 'Package Tracking - Carrier 4 Name',
+    'CFGDESC_CARRIER_NAME_4' => 'Enter name of Carrier 4<br><br><strong>Example:</strong> FedEx, UPS, Canada Post, etc...<br>(default: blank)',
+    'CFGTITLE_CARRIER_LINK_4' => 'Package Tracking - Carrier 4 Tracking Link',
+    'CFGDESC_CARRIER_LINK_4' => 'Enter the tracking link of Carrier 4<br><br><strong>Example:</strong> https://www.fedex.com/Tracking?action=track&tracknumbers=',
+    'CFGTITLE_CARRIER_STATUS_5' => 'Package Tracking - Carrier 5 Status',
+    'CFGDESC_CARRIER_STATUS_5' => 'Enable Tracking for Carrier 5<br><br>Set to false if you do NOT want Carrier 5 to be displayed on Admin and Customer page.',
+    'CFGTITLE_CARRIER_NAME_5' => 'Package Tracking - Carrier 5 Name',
+    'CFGDESC_CARRIER_NAME_5' => 'Enter name of Carrier 5<br><br><strong>Example:</strong> FedEx, UPS, Canada Post, etc...<br>(default: blank)',
+    'CFGTITLE_CARRIER_LINK_5' => 'Package Tracking - Carrier 5 Tracking Link',
+    'CFGDESC_CARRIER_LINK_5' => 'Enter the tracking link of Carrier 5<br><br><strong>Example:</strong> https://www.fedex.com/Tracking?action=track&tracknumbers=',
+    'CFGTITLE_MAX_DISPLAY_PRODUCTS_IN_TRACK_ORDERS_BOX' => 'Max display for Track Order sidebox',
+    'CFGDESC_MAX_DISPLAY_PRODUCTS_IN_TRACK_ORDERS_BOX' => 'The maximum number of orders to display on the Track Order sidebox.',];
+
+return $define;
