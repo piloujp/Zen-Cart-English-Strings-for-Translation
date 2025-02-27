@@ -184,6 +184,8 @@ $define = [
     'CFGDESC_CURL_PROXY_SERVER_DETAILS' => 'If you have a hosting service that requires use of a proxy to talk to external sites via cURL, enter their proxy address here.<br />format: address:port<br />ie: 127.0.0.1:3128',
     'CFGTITLE_HTML_EDITOR_PREFERENCE' => 'HTML Editor',
     'CFGDESC_HTML_EDITOR_PREFERENCE' => 'Please select the HTML/Rich-Text editor you wish to use for composing Admin-related emails, newsletters, and product descriptions',
+    'CFGTITLE_TINYMCE_EDITOR_API_KEY' => 'TinyMCE Editor API Key',
+    'CFGDESC_TINYMCE_EDITOR_API_KEY' => 'Basic editor features are free, in GPL mode.<br>Optionally enable premium editor features in the TinyMCE editor by providing your account API key and register your store website domain in your Tiny account.<br>Sign up at <a href="https://www.tiny.cloud/auth/signup/" target="_blank">www.tiny.cloud</a><br><br>Default value: <strong>GPL</strong> for free-unregistered mode with basic features.',
     'CFGTITLE_NOTIFY_CUSTOMER_DEFAULT' => 'Default for Notify Customer on Order Status Update?',
     'CFGDESC_NOTIFY_CUSTOMER_DEFAULT' => 'Set the default email behavior on status update to Send Email, Do Not Send Email, or Hide Update.',
     'CFGTITLE_SHOW_COUNTS_ADMIN' => 'Show Category Counts - Admin',
