@@ -12,8 +12,6 @@ $define = [
 // Admin configuration
     'CFGTITLE_EO_ADDRESSES_DISPLAY_ORDER' => 'Addresses, Display Order',
     'CFGDESC_EO_ADDRESSES_DISPLAY_ORDER' => 'In what order, left-to-right, should <em>Edit Orders</em> display an order\'s addresses?  Choose <b>CSB</b> to display <em>Customer</em>, <em>Shipping</em> and then <em>Billing</em>; choose <b>CBS</b> to display <em>Customer</em>, <em>Billing</em> and then <em>Shipping</em>.',
-    'CFGTITLE_EO_TOTAL_RESET_DEFAULT' => 'Reset Totals on Update &mdash; Default',
-    'CFGDESC_EO_TOTAL_RESET_DEFAULT' => 'Choose the default value for the <em>Reset totals prior to update</em> checkbox.  If your store uses order-total modules that perform tax-related recalculations (like &quot;Group Pricing&quot;), set this value to <b>on</b>.',
     'CFGTITLE_EO_SHIPPING_DROPDOWN_STRIP_TAGS' => 'Strip tags from the shipping module name?',
     'CFGDESC_EO_SHIPPING_DROPDOWN_STRIP_TAGS' => 'When enabled, HTML and PHP tags present in the title of a shipping module are removed from the text displayed in the shipping dropdown menu.<br><br>If partial or broken tags are present in the title it may result in the removal of more text than expected. If this happens, you will need to update the affected shipping module(s) or disable this option.',
     'CFGTITLE_EO_PRODUCT_PRICE_CALC_METHOD' => 'Product Price Calculation &mdash; Method',
