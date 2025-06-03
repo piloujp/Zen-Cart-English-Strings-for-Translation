@@ -14,8 +14,8 @@ declare(strict_types=1);
 $define = [
     'BOX_CATALOG_MULTIPLE_PRODUCT_COPY' => 'Multiple Product Copy',
 // Plugin title
-    'ADMIN_PLUGIN_MANAGER_NAME_FOR_MULTIPLE_PRODUCT_COPY' => 'Multiple Product Copy',
-    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_MULTIPLE_PRODUCT_COPY' => 'Perform bulk product actions for Copy-link, Duplicate, Move, Delete etc...',
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_MULTIPLEPRODUCTCOPY' => 'Multiple Product Copy',
+    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_MULTIPLEPRODUCTCOPY' => 'Perform bulk product actions for Copy-link, Duplicate, Move, Delete etc...',
 ];
 
 return $define;
