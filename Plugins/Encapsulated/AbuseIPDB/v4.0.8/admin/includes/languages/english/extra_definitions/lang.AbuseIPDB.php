@@ -96,7 +96,6 @@ $define = [
     'CFGDESC_ABUSEIPDB_SESSION_RATE_LIMIT_WINDOW' => 'Time window in seconds for counting sessions (e.g., 60 seconds).',
     'CFGTITLE_ABUSEIPDB_SESSION_RATE_LIMIT_RESET_WINDOW' => 'Session Rate Limit Reset Window (seconds)',
     'CFGDESC_ABUSEIPDB_SESSION_RATE_LIMIT_RESET_WINDOW' => 'Time in seconds after which the session count resets if no new sessions are created (e.g., 300 seconds = 5 minutes).',
-
     'CFGTITLE_ABUSEIPDB_WIDGET_ENABLED' => 'Enable Admin Widget?',
     'CFGDESC_ABUSEIPDB_WIDGET_ENABLED' => 'Enable Admin Widget?<br><br>(This is an <strong>optional setting</strong>. You must install it separately. Please refer to the module <strong>README</strong> for detailed instructions.)<br>',
     'CFGTITLE_ABUSEIPDB_DEBUG' => 'Enable Debug?',
