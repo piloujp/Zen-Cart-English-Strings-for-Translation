@@ -1,6 +1,6 @@
 <?php
 $define = [
-    'ADMIN_PLUGIN_MANAGER_NAME_FOR_DISPLAYLOGS' => 'Display logs',
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_DISPLAYLOGS' => 'Display Logs',
     'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_DISPLAYLOGS' => 'Display and manage Zen Cart log files.',
 // Display Logs - configuration
     'CFGTITLE_DISPLAY_LOGS_MAX_DISPLAY' => 'Display Logs: Display Maximum',
