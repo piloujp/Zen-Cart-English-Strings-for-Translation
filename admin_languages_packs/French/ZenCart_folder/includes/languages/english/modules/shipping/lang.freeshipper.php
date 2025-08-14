@@ -1,21 +1,21 @@
 <?php
 $define = [
-    'MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE' => 'FREE SHIPPING!',
-    'MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION' => 'FREE SHIPPING',
-    'MODULE_SHIPPING_FREESHIPPER_TEXT_WAY' => 'No Delivery Charge',
+    'MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE' => 'LIVRAISON GRATUITE !',
+    'MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION' => 'LIVRAISON GRATUITE',
+    'MODULE_SHIPPING_FREESHIPPER_TEXT_WAY' => 'Aucun frais de livraison',
 // Beginning of constant configuration titles and descriptions for freeshipper Shipping
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Enable Free Shipping',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Do you want to offer Free shipping?',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_COST' => 'Free Shipping Cost',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_COST' => 'What is the Shipping cost?',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_HANDLING' => 'Handling Fee',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_HANDLING' => 'Handling fee for this shipping method.',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_TAX_CLASS' => 'Tax Class',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_TAX_CLASS' => 'Use the following tax class on the shipping fee.',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'Shipping Zone',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'If a zone is selected, only enable this shipping method for that zone.',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Sort Order',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Sort order of display.',
+    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Activer la livraison gratuite',
+    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Voulez-vous offrir la livraison gratuite ?',
+    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_COST' => 'Frais de livraison',
+    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_COST' => 'Les frais d\'expédition pour toutes les commandes qui utilisent ce mode d\'expédition.',
+    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_HANDLING' => 'Frais de traitement',
+    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_HANDLING' => 'Frais de traitement pour ce mode d\'expédition.',
+    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_TAX_CLASS' => 'Classe de la taxe',
+    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_TAX_CLASS' => 'Utilisez la classe de taxe suivante sur les frais d’expédition.',
+    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'Zone d\'expédition',
+    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
+    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Ordre de tri',
+    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Ordre d\'affichage.',
 // End of constant configuration titles and descriptions for freeshipper Shipping
 ];
 
