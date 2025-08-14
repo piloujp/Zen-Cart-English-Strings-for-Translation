@@ -73,8 +73,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPAL_PDTTOKEN' => 'Saisissez ici la valeur de votre jeton PDT afin d\'activer les transactions immédiatement après leur traitement (si elles passent la validation).',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Activer la journalisation de débogage ? <br>REMARQUE : cela peut VRAIMENT encombrer votre boîte de réception et utiliser de l\'espace disque !<br>La journalisation va dans le dossier /logs.<br>Le courrier électronique est envoyé à l\'adresse du propriétaire du magasin.<br>L\'option de courrier électronique n\'est PAS recommandée.<br><strong>Laissez OFF pour un fonctionnement normal.</strong>',
-    'CFGTITLE_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'Debug Email Address',
-    'CFGDESC_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'The email address to use for PayPal debugging',
+    'CFGTITLE_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'Adresse Email de débogage',
+    'CFGDESC_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'L\'adresse e-mail à utiliser pour le débogage PayPal',
 // End of constant configuration titles and descriptions for payment module paypal
 ];
 
