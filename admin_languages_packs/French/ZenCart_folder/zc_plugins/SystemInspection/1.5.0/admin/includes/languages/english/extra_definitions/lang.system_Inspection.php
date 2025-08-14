@@ -7,8 +7,8 @@
 */
 
 $define = [
-    'ADMIN_PLUGIN_MANAGER_NAME_FOR_SYSTEMINSPECTION' => 'System Inspection',
-    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_SYSTEMINSPECTION' => 'Lists database changes that have been made to a base Zen Cart installation. (formerly called ModList)',
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_SYSTEMINSPECTION' => 'Inspection du système',
+    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_SYSTEMINSPECTION' => 'Répertorie les modifications de la base de données qui ont été apportées à une installation de base de Zen Cart (anciennement appelé ModList).',
 ];
 
 return $define;
