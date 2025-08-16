@@ -26,7 +26,7 @@ $define = [
     'TEXT_DELETE_WARNING_PRODUCTS' => '<b>ATTENTION :</b> Il y a %s produit(s) encore associé(s) à ce type de produit !',
     'IMAGE_LAYOUT' => 'Paramètres de mise en page',
 // Table product_types, translation for field type_name
-    'PRODUCT_TYPE_NAME_FOR_HANDLER_PRODUCT_GENERAL' => 'Produit - Général',
+    'PRODUCT_TYPE_NAME_FOR_HANDLER_PRODUCT' => 'Produit - Général',
     'PRODUCT_TYPE_NAME_FOR_HANDLER_PRODUCT_MUSIC' => 'Produit - Musique',
     'PRODUCT_TYPE_NAME_FOR_HANDLER_DOCUMENT_GENERAL' => 'Document - Général',
     'PRODUCT_TYPE_NAME_FOR_HANDLER_DOCUMENT_PRODUCT' => 'Document - Produit',
