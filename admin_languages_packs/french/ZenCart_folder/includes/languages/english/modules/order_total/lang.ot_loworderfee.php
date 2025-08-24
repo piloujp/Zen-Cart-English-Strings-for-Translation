@@ -2,7 +2,7 @@
 $define = [
     'MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE' => 'Frais pour les petites commandes',
     'MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION' => 'Frais pour les commandes à montant total bas',
-// Beginning of constant configuration titles and descriptions for order total module ot_loworderfee
+// bof constant configuration titles and descriptions for order total module ot_loworderfee
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => 'Ce module est installé',
     'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER' => 'Ordre de tri',
@@ -20,7 +20,8 @@ $define = [
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_VIRTUAL' => 'Pas de frais supplémentaires sur les produits virtuels',
     'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_VIRTUAL' => 'Ne facturez pas de frais de petites commandes lorsque le panier contient uniquement des produits virtuels.',
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'Pas de frais supplémentaires sur les chèques-cadeaux',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'Ne facturez pas de frais de petites commandes lorsque le panier contient uniquement des chèques-cadeaux',// End of constant configuration titles and descriptions for order total module ot_loworderfee
+    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'Ne facturez pas de frais de petites commandes lorsque le panier contient uniquement des chèques-cadeaux',
+// eof constant configuration titles and descriptions for order total module ot_loworderfee
 ];
 
 return $define;
