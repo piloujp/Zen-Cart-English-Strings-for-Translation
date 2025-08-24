@@ -2,7 +2,7 @@
 $define = [
     'MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE' => 'Low Order Fee',
     'MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION' => 'Low Order Fee',
-// Beginning of constant configuration titles and descriptions for order total module ot_loworderfee
+// bof constant configuration titles and descriptions for order total module ot_loworderfee
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => 'This module is installed',
     'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER' => 'Sort Order',
@@ -20,7 +20,8 @@ $define = [
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_VIRTUAL' => 'No Low Order Fee on Virtual Products',
     'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_VIRTUAL' => 'Do not charge Low Order Fee when cart is Virtual Products Only',
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'No Low Order Fee on Gift Vouchers',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'Do not charge Low Order Fee when cart is Gift Vouchers Only',// End of constant configuration titles and descriptions for order total module ot_loworderfee
+    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'Do not charge Low Order Fee when cart is Gift Vouchers Only',
+// eof constant configuration titles and descriptions for order total module ot_loworderfee
 ];
 
 return $define;

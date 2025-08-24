@@ -14,7 +14,7 @@ $define = [
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE' => 'There has been an error processing your credit card. Please try again.',
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE' => 'Your credit card was declined. Please try another card or contact your bank for more info.',
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR' => 'Credit Card Error!',
-// Beginning of constant configuration titles and descriptions for payment module authorizenet
+// bof constant configuration titles and descriptions for payment module authorizenet
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'Enable Authorize.net Module',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'Do you want to accept Authorize.net payments?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_LOGIN' => 'Login ID',
@@ -25,6 +25,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SECURITYKEY' => 'Security Key used for validating transactions (128 characters).<br>See <a href=\"https://support.authorize.net/s/article/What-is-a-Signature-Key\" rel=\"noopener\" target=\"_blank\">What-is-a-Signature-Key</a> for instructions.',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_TESTMODE' => 'Transaction Mode',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_TESTMODE' => 'Transaction mode used for processing orders.<br><strong>Production</strong>=Live processing with real account credentials<br><strong>Test</strong>=Simulations with real account credentials<br><strong>Sandbox</strong>=use special sandbox transaction key to do special testing of success/fail transaction responses (obtain sandbox credentials via <a href=\"https://developer.authorize.net/hello_world/sandbox/\">developer.authorize.net</a>)',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Currency Supported',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Which currency is your Authnet Gateway Account configured to accept?<br>(Purchases in any other currency will be pre-converted to this currency before submission using the exchange rates in your store admin.)',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_METHOD' => 'Transaction Method',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_METHOD' => 'Transaction method used for processing orders',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AUTHORIZATION_TYPE' => 'Authorization Type',
@@ -33,21 +35,19 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_USE_CVV' => 'Do you want to ask the customer for the card\'s CVV number',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_EMAIL_CUSTOMER' => 'Customer Notifications',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_EMAIL_CUSTOMER' => 'Should Authorize.Net email a receipt to the customer?',
-    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => 'Sort order of display.',
-    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => 'Sort order of displaying payment options to the customer. Lowest is displayed first.',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_ZONE' => 'Payment Zone',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_ZONE' => 'If a zone is selected, only enable this payment method for that zone.',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_ORDER_STATUS_ID' => 'Set Order Status',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_ORDER_STATUS_ID' => 'Set the status of orders made with this payment module to this value',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => 'Sort order of display.',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => 'Sort order of displaying payment options to the customer. Lowest is displayed first.',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_GATEWAY_MODE' => 'Gateway Mode',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_GATEWAY_MODE' => 'Where should customer credit card info be collected?<br><b>onsite</b> = here (requires SSL)<br><b>offsite</b> = authorize.net site',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => 'Enable Database Storage',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => 'Do you want to save the gateway communications data to the database?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'Debug Mode',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'Would you like to enable debug mode?  A  detailed log of failed transactions may be emailed to the store owner.',
-    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Currency Supported',
-    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Which currency is your Authnet Gateway Account configured to accept?<br>(Purchases in any other currency will be pre-converted to this currency before submission using the exchange rates in your store admin.)',
-// End of constant configuration titles and descriptions for payment module authorizenet
+// eof constant configuration titles and descriptions for payment module authorizenet
 ];
 
 if (defined('MODULE_PAYMENT_AUTHORIZENET_STATUS') && MODULE_PAYMENT_AUTHORIZENET_STATUS == 'True') {

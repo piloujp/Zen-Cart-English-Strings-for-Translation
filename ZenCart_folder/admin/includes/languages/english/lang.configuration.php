@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2022 Jan 11 New in v1.5.8-alpha $
+ * @version $Id: piloujp 2025 Aug 09 in v2.2.0-alpha1 $
 */
 
 $define = [
@@ -73,7 +73,7 @@ $define = [
     'TEXT_MAX_PREVIEW' => 'Value must be an integer.',
     'TEXT_HINT_PASSWORD_RESET_TOKEN_LENGTH' => 'Value must be an integer between 12-100.',
     'TEXT_HINT_PASSWORD_RESET_TOKEN_VALID_MINUTES' => 'Value must be an integer between 1-1440.',
-// Beginning of constant configuration group titles  for table configuration_group
+// bof constant configuration group titles  for table configuration_group
     'CFG_GRP_TITLE_MY_STORE' => 'My Store',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => 'Minimum Values',
     'CFG_GRP_TITLE_MAXIMUM_VALUES' => 'Maximum Values',
@@ -99,9 +99,37 @@ $define = [
     'CFG_GRP_TITLE_ALL_LISTING' => 'All Listing',
     'CFG_GRP_TITLE_INDEX_LISTING' => 'Index Listing',
     'CFG_GRP_TITLE_DEFINE_PAGE_STATUS' => 'Define Page Status',
-    'CFG_GRP_TITLE_EZ-PAGES_SETTINGS' => 'EZ-Pages Settings',
-// End of constant configuration group titles for table configuration_group
-// Beginning of constant configuration titles and descriptions for table configuration
+    'CFG_GRP_TITLE_EZ_PAGES_SETTINGS' => 'EZ-Pages Settings',
+/*
+    'CFG_GRP_TITLE_MY_STORE' => '%%BOX_CONFIGURATION_MY_STORE%%',
+    'CFG_GRP_TITLE_MINIMUM_VALUES' => '%%BOX_CONFIGURATION_MINIMUM_VALUES%%',
+    'CFG_GRP_TITLE_MAXIMUM_VALUES' => '%%BOX_CONFIGURATION_MAXIMUM_VALUES%%',
+    'CFG_GRP_TITLE_IMAGES' => '%%BOX_CONFIGURATION_IMAGES%%',
+    'CFG_GRP_TITLE_CUSTOMER_DETAILS' => '%%BOX_CONFIGURATION_CUSTOMER_DETAILS%%',
+    'CFG_GRP_TITLE_MODULE_OPTIONS' => 'Module Options',
+    'CFG_GRP_TITLE_SHIPPING_PACKAGING' => '%%BOX_CONFIGURATION_SHIPPING_PACKAGING%%',
+    'CFG_GRP_TITLE_PRODUCT_LISTING' => '%%BOX_CONFIGURATION_PRODUCT_LISTING%%',
+    'CFG_GRP_TITLE_STOCK' => '%%BOX_CONFIGURATION_STOCK%%',
+    'CFG_GRP_TITLE_LOGGING' => '%%BOX_CONFIGURATION_LOGGING%%',
+    'CFG_GRP_TITLE_REGULATIONS' => '%%BOX_CONFIGURATION_REGULATIONS%%',
+    'CFG_GRP_TITLE_EMAIL' => '%%BOX_CONFIGURATION_EMAIL_OPTIONS%%',
+    'CFG_GRP_TITLE_ATTRIBUTE_SETTINGS' => '%%BOX_CONFIGURATION_ATTRIBUTE_OPTIONS%%',
+    'CFG_GRP_TITLE_GZIP_COMPRESSION' => '%%BOX_CONFIGURATION_GZIP_COMPRESSION%%',
+    'CFG_GRP_TITLE_SESSIONS' => '%%BOX_CONFIGURATION_SESSIONS%%',
+    'CFG_GRP_TITLE_GV_COUPONS' => '%%BOX_CONFIGURATION_GV_COUPONS%%',
+    'CFG_GRP_TITLE_CREDIT_CARDS' => '%%BOX_CONFIGURATION_CREDIT_CARDS%%',
+    'CFG_GRP_TITLE_PRODUCT_INFO' => '%%BOX_CONFIGURATION_PRODUCT_INFO%%',
+    'CFG_GRP_TITLE_LAYOUT_SETTINGS' => '%%BOX_CONFIGURATION_LAYOUT_SETTINGS%%',
+    'CFG_GRP_TITLE_WEBSITE_MAINTENANCE' => '%%BOX_CONFIGURATION_WEBSITE_MAINTENANCE%%',
+    'CFG_GRP_TITLE_NEW_LISTING' => '%%BOX_CONFIGURATION_NEW_LISTING%%',
+    'CFG_GRP_TITLE_FEATURED_LISTING' => '%%BOX_CONFIGURATION_FEATURED_LISTING%%',
+    'CFG_GRP_TITLE_ALL_LISTING' => '%%BOX_CONFIGURATION_ALL_LISTING%%',
+    'CFG_GRP_TITLE_INDEX_LISTING' => '%%BOX_CONFIGURATION_INDEX_LISTING%%',
+    'CFG_GRP_TITLE_DEFINE_PAGE_STATUS' => '%%BOX_CONFIGURATION_DEFINE_PAGE_STATUS%%',
+    'CFG_GRP_TITLE_EZ_PAGES_SETTINGS' => '%%BOX_CONFIGURATION_EZPAGES_SETTINGS%%',
+*/
+// eof constant configuration group titles for table configuration_group
+// bof constant configuration titles and descriptions for table configuration
     'CFGTITLE_STORE_NAME' => 'Store Name',
     'CFGDESC_STORE_NAME' => 'The name of my store',
     'CFGTITLE_STORE_OWNER' => 'Store Owner',

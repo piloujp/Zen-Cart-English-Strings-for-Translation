@@ -9,7 +9,7 @@ $define = [
     'MODULE_ORDER_TOTAL_GV_USER_BALANCE' => 'Available balance: ',
     'MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS' => '<p>To use Gift Certificate funds already in your account, type the amount you wish to apply in the box that says \'Apply Amount\'. You will need to choose a payment method,  then click the continue button to apply the funds to your shopping cart.</p><p>If you are redeeming a <em>new</em> Gift Certificate you should type the number into the box next to Redemption Code. The amount redeemed will be added to your account when you click the continue button.</p>',
     'MODULE_ORDER_TOTAL_GV_INCLUDE_ERROR' => ' Setting Include tax = true, should only happen when recalculate = None',
-// Beginning of constant configuration titles and descriptions for order total module ot_gv
+// bof constant configuration titles and descriptions for order total module ot_gv
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_STATUS' => 'This module is installed',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SORT_ORDER' => 'Sort Order',
@@ -32,7 +32,7 @@ $define = [
     'CFGDESC_MODULE_ORDER_TOTAL_GV_ORDER_STATUS_ID' => 'Set the status of orders made where GV covers full payment',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SPECIAL' => 'Allow Gift Voucher Specials',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_SPECIAL' => 'Do you want to allow Gift Voucher to be placed on Special?',
-// End of constant configuration titles and descriptions for order total module ot_gv
+// eof constant configuration titles and descriptions for order total module ot_gv
 ];
 
 return $define;

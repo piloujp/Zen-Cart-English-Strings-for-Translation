@@ -154,7 +154,7 @@ $define = [
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_SUBJECT' => 'Payment in Fraud Review Status: ',
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_INTRO' => 'This is an automated notification to advise you that PayPal flagged the payment for a new order as Requiring Payment Review by their Fraud team. Normally the review is completed within 36 hours. It is STRONGLY ADVISED that you DO NOT SHIP the order until payment review is completed. You can see the latest review status of the order by logging into your PayPal account and reviewing recent transactions.',
     'MODULES_PAYMENT_PAYPALWPP_AGGREGATE_CART_CONTENTS' => 'All the items in your shopping basket (see details in the store and on your store receipt).',
-// Beginning of constant configuration titles and descriptions for payment module paypaldp
+// bof constant configuration titles and descriptions for payment module paypaldp
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_STATUS' => 'Enable this Payment Module',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_STATUS' => 'Do you want to enable this payment module?',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_SERVER' => 'Live or Sandbox',
@@ -187,14 +187,14 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_CARDINAL_PASSWORD' => 'Enter your Cardinal Transaction Password from your Cardinal Merchant Admin console. This is used to secure and verify that the transaction originated from your store legitimately.',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CARDINAL_AUTHENTICATE_REQ' => 'Only Accept Chargeback-Protected Orders via Cardinal?',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_CARDINAL_AUTHENTICATE_REQ' => 'Only proceed with authorization when the Cardinal authentication result provides chargeback protection? ',
-// End of constant configuration titles and descriptions for payment module paypaldp
+// eof constant configuration titles and descriptions for payment module paypaldp
 ];
 
 if (IS_ADMIN_FLAG === true) {
-    $define['MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION'] = '<strong>PayPal Payments Pro</strong>%s<br>' . '<a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Manage your PayPal account.</a>' . '<br><br><font color="green">Configuration Instructions:</font><br><span class="alert">1. </span><a href="https://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank">Sign up for your PayPal account - click here.</a><br>' .
+    $define['MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION'] = '<strong>PayPal Payments Pro</strong>%s<br><a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Manage your PayPal account.</a><br><br><font color="green">Configuration Instructions:</font><br><span class="alert">1. </span><a href="https://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank">Sign up for your PayPal account - click here.</a><br>' .
         (isset($define['MODULE_PAYMENT_PAYPALDP_STATUS']) ? '' : '... and click "install" above to enable PayPal Payments Pro.<br><a href="https://www.zen-cart.com/getpaypal" rel="noopener" target="_blank">For additional detailed help, see this FAQ article</a><br>') .
         (!isset($define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE']) || $define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE'] === '' ? '<span class="alert">2. </span><strong>API credentials</strong> from the API Credentials option in your PayPal Profile Settings area. This module uses the <strong>API Signature</strong> option -- you will need the username, password and signature to enter in the fields below.' : '<span class="alert">2. </span>Ensure you have entered the appropriate security data for username/pwd etc, below.') .
-        '<font color="green"><hr><strong>Requirements:</strong></font><br><hr>*<strong>Express Checkout</strong> must be installed and activated in order to use PayPal Payments Pro, according to PayPal Terms of Service. <br>*Also requires CURL over SSL for outbound communications. CURL should be enabled for ports 80 and 443.<hr>';
+        '<font color="green"><hr><strong>Requirements:</strong></font><br><hr>*<strong>Express Checkout</strong> must be installed and activated in order to use PayPal Payments Pro, according to PayPal Terms of Service.<br>*Also requires CURL over SSL for outbound communications. CURL should be enabled for ports 80 and 443.<hr>';
 }
 
 return $define;

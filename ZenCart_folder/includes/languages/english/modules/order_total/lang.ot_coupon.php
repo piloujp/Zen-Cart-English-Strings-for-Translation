@@ -9,7 +9,7 @@ $define = [
     'TEXT_COMMAND_TO_DELETE_CURRENT_COUPON_FROM_ORDER' => 'REMOVE',
     'TEXT_REMOVE_REDEEM_COUPON' => 'Discount Coupon Removed by Request!',
     'MODULE_ORDER_TOTAL_COUPON_INCLUDE_ERROR' => ' Setting Include tax = true, should only happen when recalculate = None',
-// Beginning of constant configuration titles and descriptions for order total module ot_coupon
+// bof constant configuration titles and descriptions for order total module ot_coupon
     'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_STATUS' => 'This module is installed',
     'CFGDESC_MODULE_ORDER_TOTAL_COUPON_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_SORT_ORDER' => 'Sort Order',
@@ -22,7 +22,7 @@ $define = [
     'CFGDESC_MODULE_ORDER_TOTAL_COUPON_CALC_TAX' => 'Re-Calculate Tax',
     'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_TAX_CLASS' => 'Tax Class',
     'CFGDESC_MODULE_ORDER_TOTAL_COUPON_TAX_CLASS' => 'Use the following tax class when treating Discount Coupon as Credit Note.',
-// End of constant configuration titles and descriptions for order total module ot_coupon
+// eof constant configuration titles and descriptions for order total module ot_coupon
 ];
 
 $define['MODULE_ORDER_TOTAL_COUPON_REMOVE_INSTRUCTIONS'] = '<p>To remove a Discount Coupon from this order replace the coupon code with: ' . $define['TEXT_COMMAND_TO_DELETE_CURRENT_COUPON_FROM_ORDER'] . '</p>';

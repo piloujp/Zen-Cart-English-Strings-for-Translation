@@ -3,7 +3,7 @@ $define = [
     'MODULE_ORDER_TOTAL_COD_TITLE' => 'COD Fee',
     'MODULE_ORDER_TOTAL_COD_DESCRIPTION' => 'COD Fee',
     'TEXT_INFO_COD_FEES' => '<strong>Note:</strong> COD fees may apply',
-// Beginning of constant configuration titles and descriptions for order total module ot_cod_fee
+// bof constant configuration titles and descriptions for order total module ot_cod_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_COD_STATUS' => 'Display COD',
     'CFGDESC_MODULE_ORDER_TOTAL_COD_STATUS' => 'Do you want this module to display?',
     'CFGTITLE_MODULE_ORDER_TOTAL_COD_SORT_ORDER' => 'Sort Order',

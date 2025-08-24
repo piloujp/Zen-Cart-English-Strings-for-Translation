@@ -149,7 +149,7 @@ $define = [
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_INTRO' => 'This is an automated notification to advise you that PayPal flagged the payment for a new order as Requiring Payment Review by their Fraud team. Normally the review is completed within 36 hours. It is STRONGLY ADVISED that you DO NOT SHIP the order until payment review is completed. You can see the latest review status of the order by logging into your PayPal account and reviewing recent transactions.',
     'MODULES_PAYMENT_PAYPALWPP_TEXT_BLANK_ADDRESS' => 'PROBLEM: We&#39;re sorry. PayPal has unexpectedly returned a blank address. <br>In order to complete your purchase, please provide your address by clicking the &quot;Sign Up&quot; button below to create an account in our store. Then you may select PayPal again when you continue with checkout. We apologize for the inconvenience. If you have any trouble with checkout, please click the Contact Us link to explain the details to us so we can help you with your purchase and prevent the problem in the future. Thanks.',
     'MODULES_PAYMENT_PAYPALWPP_AGGREGATE_CART_CONTENTS' => 'All the items in your shopping basket (see details in the store and on your store receipt).',
-// Beginning of constant configuration titles and descriptions for order payment paypalwpp
+// bof constant configuration titles and descriptions for order payment paypalwpp
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_STATUS' => 'Enable this Payment Module',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_STATUS' => 'Do you want to enable this payment module?',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_SERVER' => 'Live or Sandbox',
@@ -208,7 +208,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_MERCHANTID' => 'Enter your PayPal Merchant ID here. This is used for the more user-friendly In-Context checkout mode. You can obtain this value by going to your PayPal account, clicking on your account name at the top right, then clicking Account Settings, and navigating to the Business Information section; You will find your Merchant Account ID on that screen. A typical Merchant ID looks like FDEFDEFDEFDE11.',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_CHECKOUTSTYLE' => 'Use InContext Checkout?',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_CHECKOUTSTYLE' => 'PayPal now offers a newer friendlier InContext (in-page) checkout mode (Requires that you enter your MerchantID in the Merchant ID Setting above). Or you can use the older checkout style which offers Pay Without Account by default but with a full-page-redirect.',
-// End of constant configuration titles and descriptions for order payment paypalwpp
+// eof constant configuration titles and descriptions for order payment paypalwpp
 ];
 
 if (IS_ADMIN_FLAG === true) {

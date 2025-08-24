@@ -42,7 +42,7 @@ $define = [
     'MODULE_PAYMENT_PAYPAL_ENTRY_TXN_ID' => 'Trans. ID:',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PARENT_TXN_ID' => 'Parent Trans. ID:',
     'MODULE_PAYMENT_PAYPAL_ENTRY_COMMENTS' => 'System Comments: ',
-// Beginning of constant configuration titles and descriptions for payment module paypal
+// bof constant configuration titles and descriptions for payment module paypal
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_STATUS' => 'Enable PayPal Module',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_STATUS' => 'Do you want to accept PayPal payments?',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_BUSINESS_ID' => 'Business ID',
@@ -75,7 +75,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Enable debug logging? <br>NOTE: This can REALLY clutter your email inbox and use up disk space!<br>Logging goes to the /logs folder<br>Email goes to the store-owner address.<br>Email option NOT recommended.<br><strong>Leave OFF for normal operation.</strong>',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'Debug Email Address',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'The email address to use for PayPal debugging',
-// End of constant configuration titles and descriptions for payment module paypal
+// eof constant configuration titles and descriptions for payment module paypal
 ];
 
 if (IS_ADMIN_FLAG === true) {

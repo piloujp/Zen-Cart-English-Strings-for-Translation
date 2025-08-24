@@ -1,11 +1,10 @@
 <?php
-// FIXME - move the last two strings into a shared file in next update
 $define = [
     'MODULE_ORDER_TOTAL_SHIPPING_TITLE' => 'Shipping',
     'MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION' => 'Order Shipping Cost',
     'FREE_SHIPPING_TITLE' => 'Free Shipping',
     'FREE_SHIPPING_DESCRIPTION' => 'Free shipping for orders over %s',
-// Beginning of constant configuration titles and descriptions for order total module ot_shipping
+// bof constant configuration titles and descriptions for order total module ot_shipping
     'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_STATUS' => 'This module is installed',
     'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER' => 'Sort Order',
@@ -16,7 +15,7 @@ $define = [
     'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_OVER' => 'Provide free shipping for orders over the set amount.',
     'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_DESTINATION' => 'Provide Free Shipping For Orders Made',
     'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_DESTINATION' => 'Provide free shipping for orders sent to the set destination.',
-// End of constant configuration titles and descriptions for order total module ot_shipping
+// eof constant configuration titles and descriptions for order total module ot_shipping
 ];
 
 return $define;

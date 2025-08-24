@@ -51,7 +51,7 @@ $define = [
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TEXT_COMMENTS' => 'Notes (will show on Order History):',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_DEFAULT_MESSAGE' => 'Transaction Cancelled',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_SUFFIX' => 'Voids must be completed before the original transaction is settled in the daily batch.',
-// Beginning of constant configuration titles and descriptions for payment module authorizenet_aim
+// bof constant configuration titles and descriptions for payment module authorizenet_aim
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS' => 'Enable Authorize.net (AIM) Module',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS' => 'Do you want to accept Authorize.net payments via the AIM Method?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_LOGIN' => 'Login ID',
@@ -84,7 +84,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_DEBUGGING' => 'Would you like to enable debug mode?  A complete detailed log of failed transactions may be emailed to the store owner.',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Currency Supported',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Which currency is your Authnet Gateway Account configured to accept?<br>(Purchases in any other currency will be pre-converted to this currency before submission using the exchange rates in your store admin.)',
-// End of constant configuration titles and descriptions for payment module authorizenet_aim
+// eof constant configuration titles and descriptions for payment module authorizenet_aim
 ];
 
 if (defined('MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS') && MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS == 'True') {
