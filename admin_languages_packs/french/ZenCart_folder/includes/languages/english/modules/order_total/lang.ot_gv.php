@@ -9,7 +9,7 @@ $define = [
     'MODULE_ORDER_TOTAL_GV_USER_BALANCE' => 'Solde disponible: ',
     'MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS' => '<p>Pour utiliser le reliquat disponible de vos chèques cadeaux dans votre compte, tapez le montant que vous souhaitez utiliser dans le champ \'Appliquer montant\. Vous devrez choisir un moyen de paiement, cliquez alors sur le bouton Continuer pour appliquer le reliquat à votre panier.</p><p>Si vous utilisez un <em>nouveau</em> chèque cadeau, vous devez taper le code dans le champ à côté du code de réduction. Le montant de la réduction sera ajouté à votre compte quand vous cliquerez sur le bouton "Continuer".</p>',
     'MODULE_ORDER_TOTAL_GV_INCLUDE_ERROR' => ' Définir Inclure taxes = true, va seulement être utile si recalculer = None',
-// Beginning of constant configuration titles and descriptions for order total module ot_gv
+// bof constant configuration titles and descriptions for order total module ot_gv
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_STATUS' => 'Ce module est installé',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SORT_ORDER' => 'Ordre de tri',
@@ -32,7 +32,7 @@ $define = [
     'CFGDESC_MODULE_ORDER_TOTAL_GV_ORDER_STATUS_ID' => 'Définir le statut des commandes effectuées où le chèque-cadeau prend intégralement en charge le paiement',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SPECIAL' => 'Autoriser les offres spéciales sur les chèques-cadeaux',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_SPECIAL' => 'Souhaitez-vous autoriser les promotions sur les chèques-cadeaux ?',
-// End of constant configuration titles and descriptions for order total module ot_gv
+// eof constant configuration titles and descriptions for order total module ot_gv
 ];
 
 return $define;
