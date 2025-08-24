@@ -4,7 +4,7 @@ $define = [
     'MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION' => '店頭で直接お受け取り。',
     'MODULE_SHIPPING_STOREPICKUP_TEXT_WAY' => '店頭で受け取り',
     'MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS' => '',
-// Beginning of constant configuration titles and descriptions for Storepickup Shipping
+// bof constant configuration titles and descriptions for Storepickup Shipping
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'ネコポス配送を有効にする',
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'ネコポスで発送しますか？',
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_LOCATIONS_LIST' => '受け取り場所',
@@ -19,7 +19,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_ZONE' => '配送地域を選択すると選択された地域のみで利用可能となります。',
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_SORT_ORDER' => '表示の整列順',
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_SORT_ORDER' => '表示の整列順を設定できます。数字が小さいほど上位に表示されます。',
-// End of constant configuration titles and descriptions for Storepickup Shipping
+// eof constant configuration titles and descriptions for Storepickup Shipping
 ];
 
 // MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS is for defining multiple locations/methods on a per-language basis. It is only used if the shopper has selected a language other than the store's default.
