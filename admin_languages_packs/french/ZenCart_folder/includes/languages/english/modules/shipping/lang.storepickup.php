@@ -4,7 +4,7 @@ $define = [
     'MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION' => 'Retrait sur place par le client',
     'MODULE_SHIPPING_STOREPICKUP_TEXT_WAY' => 'Sur place',
     'MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS' => '',
-// Beginning of constant configuration titles and descriptions for Storepickup Shipping
+// bof constant configuration titles and descriptions for Storepickup Shipping
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'Activer l\'expédition pour le retrait en magasin',
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'Souhaitez-vous proposer un tarif de livraison en magasin ?',
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_LOCATIONS_LIST' => 'Lieux de réception',
@@ -19,7 +19,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_SORT_ORDER' => 'Ordre d\'affichage.',
-// End of constant configuration titles and descriptions for Storepickup Shipping
+// eof constant configuration titles and descriptions for Storepickup Shipping
 ];
 
 // MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS is for defining multiple locations/methods on a per-language basis. It is only used if the shopper has selected a language other than the store's default.
