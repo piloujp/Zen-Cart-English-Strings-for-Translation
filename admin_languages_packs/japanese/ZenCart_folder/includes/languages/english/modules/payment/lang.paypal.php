@@ -42,7 +42,7 @@ $define = [
     'MODULE_PAYMENT_PAYPAL_ENTRY_TXN_ID' => '取引ID：',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PARENT_TXN_ID' => '親取引ID：',
     'MODULE_PAYMENT_PAYPAL_ENTRY_COMMENTS' => 'システムコメント：',
-// Beginning of constant configuration titles and descriptions for payment module paypal
+// bof constant configuration titles and descriptions for payment module paypal
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_STATUS' => 'この支払いモジュールを有効にする',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_STATUS' => 'この支払いモジュールを有効にしますか？',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_BUSINESS_ID' => 'ビジネスID',
@@ -75,7 +75,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'デバッグモードを有効にしますか？注意：これにより、電子メールの受信トレイが乱雑になり、ディスク領域が消費される可能性があります。<br>ログは/logsフォルダに保存されます。<br>メールはストアオーナーのアドレスに送信されます。<br>電子メールオプションは推奨されません。<br><strong>通常の操作の場合はオフのままにしておきます。</strong>',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'デバッグ用メールアドレス',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'PayPalデバッグに使用するメールアドレス',
-// End of constant configuration titles and descriptions for payment module paypal
+// eof constant configuration titles and descriptions for payment module paypal
 ];
 
 if (IS_ADMIN_FLAG === true) {
