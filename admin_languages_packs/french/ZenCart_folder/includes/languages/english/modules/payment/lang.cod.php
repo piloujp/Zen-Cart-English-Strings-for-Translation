@@ -1,9 +1,8 @@
 <?php
-
 $define = [
     'MODULE_PAYMENT_COD_TEXT_TITLE' => 'Contre-Remboursement',
     'MODULE_PAYMENT_COD_TEXT_DESCRIPTION' => 'Contre-Remboursement',
-// Beginning of constant configuration titles and descriptions for payment module cod
+// bof constant configuration titles and descriptions for payment module cod
     'CFGTITLE_MODULE_PAYMENT_COD_STATUS' => 'Proposer le paiement à la livraison (contre remboursement)',
     'CFGDESC_MODULE_PAYMENT_COD_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
     'CFGTITLE_MODULE_PAYMENT_COD_ZONE' => 'Zone de paiement',
@@ -12,7 +11,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_COD_SORT_ORDER' => 'Ordre d\'affichage.',
     'CFGTITLE_MODULE_PAYMENT_COD_ORDER_STATUS_ID' => 'Définir le statut de la commande',
     'CFGDESC_MODULE_PAYMENT_COD_ORDER_STATUS_ID' => 'Définir le statut des commandes effectuées avec ce module de paiement sur cette valeur :',
-// End of constant configuration titles and descriptions for payment module cod
+// eof constant configuration titles and descriptions for payment module cod
 ];
 
 return $define;
