@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_FLAT_TEXT_TITLE' => 'Flat Rate',
     'MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION' => 'Flat Rate',
     'MODULE_SHIPPING_FLAT_TEXT_WAY' => 'Best Way',
-// Beginning of constant configuration titles and descriptions for flat Shipping
+// bof constant configuration titles and descriptions for flat Shipping
     'CFGTITLE_MODULE_SHIPPING_FLAT_STATUS' => 'Enable Flat Shipping',
     'CFGDESC_MODULE_SHIPPING_FLAT_STATUS' => 'Do you want to offer flat rate shipping?',
     'CFGTITLE_MODULE_SHIPPING_FLAT_COST' => 'Shipping Cost',
@@ -16,7 +16,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_FLAT_ZONE' => 'If a zone is selected, only enable this shipping method for that zone.',
     'CFGTITLE_MODULE_SHIPPING_FLAT_SORT_ORDER' => 'Sort Order',
     'CFGDESC_MODULE_SHIPPING_FLAT_SORT_ORDER' => 'Sort order of display.',
-// End of constant configuration titles and descriptions for flat Shipping
+// eof constant configuration titles and descriptions for flat Shipping
 ];
 
 return $define;

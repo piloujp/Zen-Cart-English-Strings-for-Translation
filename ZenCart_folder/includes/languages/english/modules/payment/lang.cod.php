@@ -1,9 +1,8 @@
 <?php
-
 $define = [
     'MODULE_PAYMENT_COD_TEXT_TITLE' => 'Cash on Delivery',
     'MODULE_PAYMENT_COD_TEXT_DESCRIPTION' => 'Cash on Delivery',
-// Beginning of constant configuration titles and descriptions for payment module cod
+// bof constant configuration titles and descriptions for payment module cod
     'CFGTITLE_MODULE_PAYMENT_COD_STATUS' => 'Enable Cash On Delivery Module',
     'CFGDESC_MODULE_PAYMENT_COD_STATUS' => 'Do you want to accept Cash On Delivery payments?',
     'CFGTITLE_MODULE_PAYMENT_COD_ZONE' => 'Payment Zone',
@@ -12,7 +11,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_COD_SORT_ORDER' => 'Sort order of display. Lowest is displayed first.',
     'CFGTITLE_MODULE_PAYMENT_COD_ORDER_STATUS_ID' => 'Set Order Status',
     'CFGDESC_MODULE_PAYMENT_COD_ORDER_STATUS_ID' => 'Set the status of orders made with this payment module to this value',
-// End of constant configuration titles and descriptions for payment module cod
+// eof constant configuration titles and descriptions for payment module cod
 ];
 
 return $define;

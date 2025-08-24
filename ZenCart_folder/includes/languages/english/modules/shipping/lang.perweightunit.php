@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_TITLE' => 'Per Unit',
     'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_DESCRIPTION' => 'Per Unit',
     'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_WAY' => 'Best Way',
-// Beginning of constant configuration titles and descriptions for perweightunit Shipping
+// bof constant configuration titles and descriptions for perweightunit Shipping
     'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_STATUS' => 'Enable Per Weight Unit Shipping',
     'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_STATUS' => 'Do you want to offer per unit rate shipping?<br><br>Product Quantity * Units (products_weight) * Cost per Unit',
     'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_COST' => 'Shipping Cost per Unit',
@@ -20,7 +20,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_ZONE' => 'If a zone is selected, only enable this shipping method for that zone.',
     'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_SORT_ORDER' => 'Sort Order',
     'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_SORT_ORDER' => 'Sort order of display.',
-// End of constant configuration titles and descriptions for perweightunit Shipping
+// eof constant configuration titles and descriptions for perweightunit Shipping
 ];
 
 return $define;
