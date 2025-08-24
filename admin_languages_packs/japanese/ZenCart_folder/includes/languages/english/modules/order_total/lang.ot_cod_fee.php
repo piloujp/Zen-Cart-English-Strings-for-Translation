@@ -3,7 +3,7 @@ $define = [
     'MODULE_ORDER_TOTAL_COD_TITLE' => '代金引換手数料',
     'MODULE_ORDER_TOTAL_COD_DESCRIPTION' => '代金引換手数料',
     'TEXT_INFO_COD_FEES' => '<strong>注意：</strong> 代金引換手数料がかかります。',
-// Beginning of constant configuration titles and descriptions for order total module ot_cod_fee
+// bof constant configuration titles and descriptions for order total module ot_cod_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_COD_STATUS' => '代金引換を表示',
     'CFGDESC_MODULE_ORDER_TOTAL_COD_STATUS' => 'このモジュールを表示しますか？',
     'CFGTITLE_MODULE_ORDER_TOTAL_COD_SORT_ORDER' => '表示順',
