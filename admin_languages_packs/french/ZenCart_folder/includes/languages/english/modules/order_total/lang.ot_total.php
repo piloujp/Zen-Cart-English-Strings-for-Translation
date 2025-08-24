@@ -2,12 +2,12 @@
 $define = [
     'MODULE_ORDER_TOTAL_TOTAL_TITLE' => 'Total',
     'MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION' => 'Total de la commande',
-// Beginning of constant configuration titles and descriptions for order total module ot_total
+// bof constant configuration titles and descriptions for order total module ot_total
     'CFGTITLE_MODULE_ORDER_TOTAL_TOTAL_STATUS' => 'Ce module est installé',
     'CFGDESC_MODULE_ORDER_TOTAL_TOTAL_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER' => 'Ordre d\'affichage.',
-// End of constant configuration titles and descriptions for order total module ot_total
+// eof constant configuration titles and descriptions for order total module ot_total
 ];
 
 return $define;
