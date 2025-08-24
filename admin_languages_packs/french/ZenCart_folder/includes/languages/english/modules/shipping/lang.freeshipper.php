@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE' => 'LIVRAISON GRATUITE !',
     'MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION' => 'LIVRAISON GRATUITE',
     'MODULE_SHIPPING_FREESHIPPER_TEXT_WAY' => 'Aucun frais de livraison',
-// Beginning of constant configuration titles and descriptions for freeshipper Shipping
+// bof constant configuration titles and descriptions for freeshipper Shipping
     'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Activer la livraison gratuite',
     'CFGDESC_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Voulez-vous offrir la livraison gratuite ?',
     'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_COST' => 'Frais de livraison',
@@ -16,7 +16,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
     'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Ordre d\'affichage.',
-// End of constant configuration titles and descriptions for freeshipper Shipping
+// eof constant configuration titles and descriptions for freeshipper Shipping
 ];
 
 return $define;
