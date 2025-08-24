@@ -14,7 +14,7 @@ $define = [
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE' => 'クレジットカードの処理にエラーが発生しました. もう一度試してください。',
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE' => 'クレジットカードの受付が拒否されました。他のクレジットカードを試すか詳細を加盟クレジット会社へ問い合わせてください。',
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR' => 'クレジットカード エラー！',
-// Beginning of constant configuration titles and descriptions for payment module authorizenet
+// bof constant configuration titles and descriptions for payment module authorizenet
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'Authorize.net モジュールを有効にする',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'この支払いモジュールを有効にしますか？',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_LOGIN' => 'ログインID',
@@ -25,6 +25,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SECURITYKEY' => 'トランザクションの検証に使用されるセキュリティキー（１２８文字）。<br>手順については、<a href="https://support.authorize.net/s/article/What-is-a-Signature-Key" rel="noopener" target="_blank">署名キーとは</a>を参照してください。',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_TESTMODE' => '支払いアクション',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_TESTMODE' => '注文の処理に使用されるトランザクション モード。<br><strong>Production=</strong>実際のアカウント認証情報を使用したライブ処理<br><strong>Test=</strong>実際のアカウント認証情報を使用したシミュレーション<br><strong>Sandbox=</strong>特別なサンドボックス トランザクション キーを使用して、トランザクション応答の成功/失敗の特別なテストを実行します（developer.authorize.net 経由でサンドボックス資格情報を取得します）',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => '取引通貨',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Authnet Gateway アカウントはどの通貨を受け入れるように設定されていますか？<br>（他の通貨での購入は、ストア管理の為替レートを使用して、送信前にこの通貨に事前変換されます。）',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_METHOD' => '取引方法',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_METHOD' => '注文の処理に使用される取引方法',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AUTHORIZATION_TYPE' => '承認タイプ',
@@ -33,21 +35,19 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_USE_CVV' => '顧客にカードのCVV番号を尋ねますか？',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_EMAIL_CUSTOMER' => '顧客通知',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_EMAIL_CUSTOMER' => 'Authorize.Net は顧客に領収書を電子メールで送信する必要がありますか？',
-    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => '表示順',
-    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => '表示順を設定します。 最下位が最初に表示されます。',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_ZONE' => '支払い地帯',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_ZONE' => '地帯が選択されている場合は、その地帯に対してのみこの支払い方法を有効にしてください。',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_ORDER_STATUS_ID' => '注文ステータスの設定',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_ORDER_STATUS_ID' => 'この支払いモジュールで行われた注文のステータスを設定します。<br><strong>おすすめ：処理中</strong>',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => '表示順',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => '表示順を設定します。 最下位が最初に表示されます。',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_GATEWAY_MODE' => 'ゲートウェイモード',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_GATEWAY_MODE' => '顧客のクレジットカード情報はどこで収集されますか?<br><strong>オンサイト</strong> = ここ (SSL が必要)<br><strong>オフサイト</strong> = authorize.net サイト',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => 'データベースストレージを有効にする',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => 'ゲートウェイ通信データをデータベースに保存しますか？',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'デバッグモード',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'デバッグモードを有効にしますか？失敗したトランザクションの完全な詳細ログがストア所有者に電子メールで送信されます。',
-    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => '取引通貨',
-    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Authnet Gateway アカウントはどの通貨を受け入れるように設定されていますか？<br>（他の通貨での購入は、ストア管理の為替レートを使用して、送信前にこの通貨に事前変換されます。）',
-// End of constant configuration titles and descriptions for payment module authorizenet
+// eof constant configuration titles and descriptions for payment module authorizenet
 ];
 
 if (defined('MODULE_PAYMENT_AUTHORIZENET_STATUS') && MODULE_PAYMENT_AUTHORIZENET_STATUS == 'True') {
