@@ -149,7 +149,7 @@ $define = [
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_INTRO' => 'これは新規の注文で利用された支払に対して、Paypalの不正利用チェックチームにより支払情報の再確認をするよう取引にフラグが立てられた事を自動でお知らせするものです。通常、この再確認処理には 36時間程度が掛かります。支払手続きの再確認が完了するまで、商品を出荷しないように強くお勧めいたします。Paypal アカウントにログインして最近の取引履歴より、この注文に対する最新状況を確認できます。',
     'MODULES_PAYMENT_PAYPALWPP_TEXT_BLANK_ADDRESS' => '問題発生： 申し訳ありません。PayPalから想定外の空白の住所が送信されて来ました。<br />ご注文を完了させるためには、以下の当ショップの会員登録ボタンより住所情報をご登録ください。その後、支払方法として改めて PayPalをお選びいただいて注文手続きを進めてください。ご不便をおかけして申し訳ありません。万が一、注文手続きで問題が発生する場合には、「お問い合わせ」より、問題の詳細を当店までお知らせいただけると幸いです。ご注文に関しての問題の解決と共に、再発防止のために努めさせていただきます。ご協力に感謝いたします。',
     'MODULES_PAYMENT_PAYPALWPP_AGGREGATE_CART_CONTENTS' => 'ショッピングカート内の全てのアイテム（ショップ内で詳細を御確認いただくか、レシートを御確認ください）。',
-// Beginning of constant configuration titles and descriptions for order payment paypalwpp
+// bof constant configuration titles and descriptions for order payment paypalwpp
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_STATUS' => 'この支払いモジュールを有効にする',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_STATUS' => 'この支払いモジュールを有効にしますか？この支払いモジュールを削除する予定だが、このモジュールを使用して行われた注文に対して管理アクションを実行する必要がある場合には、「<strong>廃止</strong>」設定を使用します。',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_SERVER' => 'ライブまたはサンドボックス',
@@ -208,7 +208,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_MERCHANTID' => 'ここで PayPal マーチャント ID を入力します。これは、よりユーザーフレンドリーな In-Context チェックアウトモードで使用されます。この値を取得するには、PayPal アカウントに移動し、右上のアカウント名をクリックしてから「アカウント設定」をクリックし、「ビジネス情報」セクションに移動します。その画面でマーチャントアカウント ID を確認できます。一般的なマーチャント ID は、「FDEFDEFDEFDE11」のようになります。',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_CHECKOUTSTYLE' => 'コンテキストチェックアウトを使用しますか？',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_CHECKOUTSTYLE' => 'PayPal では、より使いやすい新しいコンテキスト内（ページ内）チェックアウト モードが提供されるようになりました（上記の Merchant ID 設定で MerchantID を入力する必要があります）。または、デフォルトで「アカウントなしで支払う」機能を提供しながら、フルページリダイレクトを使用する古いチェックアウトスタイルを使用することもできます。',
-// End of constant configuration titles and descriptions for order payment paypalwpp
+// eof constant configuration titles and descriptions for order payment paypalwpp
 ];
 
 if (IS_ADMIN_FLAG === true) {
