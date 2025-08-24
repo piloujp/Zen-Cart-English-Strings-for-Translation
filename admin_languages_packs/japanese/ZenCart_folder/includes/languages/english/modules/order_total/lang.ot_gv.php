@@ -9,7 +9,7 @@ $define = [
     'MODULE_ORDER_TOTAL_GV_USER_BALANCE' => 'ご利用可能残額：',
     'MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS' => '<p>すでにお客様のアカウントに登録済みのギフト券をお使いになるには「ご利用額」の欄にお使いになる金額を入力し、「続ける」ボタンをクリックするとショッピングカートに適用されます</p><p><em>新しい</em>ギフト券を引き換える場合は、引換コードを入力してください。「続ける」ボタンをクリックすると額面がお客様のアカウントに追加されます。</p>',
     'MODULE_ORDER_TOTAL_GV_INCLUDE_ERROR' => ' 税込み設定 = true は、再計算 = なしの場合にのみ発生します。',
-// Beginning of constant configuration titles and descriptions for order total module ot_gv
+// bof constant configuration titles and descriptions for order total module ot_gv
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_STATUS' => 'このモジュールはインストールされています',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SORT_ORDER' => '表示順',
@@ -32,7 +32,7 @@ $define = [
     'CFGDESC_MODULE_ORDER_TOTAL_GV_ORDER_STATUS_ID' => 'GVが全額支払いをカバーする注文のステータスを設定する。',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SPECIAL' => 'ギフト券の特別販売を許可する',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_SPECIAL' => 'ギフト券を特別販売できるようにしますか？',
-// End of constant configuration titles and descriptions for order total module ot_gv
+// eof constant configuration titles and descriptions for order total module ot_gv
 ];
 
 return $define;
