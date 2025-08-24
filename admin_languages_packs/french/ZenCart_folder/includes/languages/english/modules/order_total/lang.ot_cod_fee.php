@@ -3,7 +3,7 @@ $define = [
     'MODULE_ORDER_TOTAL_COD_TITLE' => 'Frais de Contre-Remboursement',
     'MODULE_ORDER_TOTAL_COD_DESCRIPTION' => 'Frais de Contre-Remboursement',
     'TEXT_INFO_COD_FEES' => '<strong>NOTE:</strong> Des frais de Contre-Remboursement peuvent être appliqués.',
-// Beginning of constant configuration titles and descriptions for order total module ot_cod_fee
+// bof constant configuration titles and descriptions for order total module ot_cod_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_COD_STATUS' => 'Proposer le paiement à la livraison (contre remboursement)',
     'CFGDESC_MODULE_ORDER_TOTAL_COD_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
     'CFGTITLE_MODULE_ORDER_TOTAL_COD_SORT_ORDER' => 'Ordre de tri',
