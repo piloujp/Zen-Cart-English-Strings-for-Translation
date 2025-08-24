@@ -51,7 +51,7 @@ $define = [
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TEXT_COMMENTS' => 'Notes (s\'afficheront dans l\'historique de commande): ',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_DEFAULT_MESSAGE' => 'Transaction annulée',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_SUFFIX' => 'Les annulations doivent être effectuées avant que la transaction d\'origine soit acceptée dans le batch journalier.',
-// Beginning of constant configuration titles and descriptions for payment module authorizenet_aim
+// bof constant configuration titles and descriptions for payment module authorizenet_aim
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS' => 'Activer le module « Authorize.net (AIM) »',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS' => 'Souhaitez-vous accepter les paiements Authorize.net avec la méthode AIM ?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_LOGIN' => 'ID de connexion',
@@ -84,7 +84,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_DEBUGGING' => 'Activer la journalisation de débogage ? Un journal détaillé des transactions échouées peut être envoyé par courrier électronique au propriétaire du magasin.',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Devise prise en charge',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Quelle devise votre compte Authnet Gateway est-il configuré pour accepter ?<br>(Les achats dans toute autre devise seront pré-convertis dans cette devise avant l\'envoi en utilisant les taux de change définis dans l\'administration de votre boutique.)',
-// End of constant configuration titles and descriptions for payment module authorizenet_aim
+// eof constant configuration titles and descriptions for payment module authorizenet_aim
 ];
 
 if (defined('MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS') && MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS == 'True') {
