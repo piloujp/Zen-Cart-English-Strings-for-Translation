@@ -1,3 +1,1 @@
-files:
-  - source: /ZenCart_folder/
-    translation: /admin_languages_packs/%language%/%original_path%/%original_file_name%
+files: []
