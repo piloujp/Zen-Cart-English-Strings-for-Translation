@@ -1,22 +1,42 @@
 <?php
 $define = [
-    'MODULE_SHIPPING_FLAT_TEXT_TITLE' => 'Tarifa plana',
-    'MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION' => 'Tarifa plana',
-    'MODULE_SHIPPING_FLAT_TEXT_WAY' => 'Mejor Vía',
-// bof constant configuration titles and descriptions for flat shipping
-    'CFGTITLE_MODULE_SHIPPING_FLAT_STATUS' => 'Habilitar envío plano',
-    'CFGDESC_MODULE_SHIPPING_FLAT_STATUS' => '¿Quiere ofrecer envío a tarifa plana ?',
-    'CFGTITLE_MODULE_SHIPPING_FLAT_COST' => 'Coste de envío',
-    'CFGDESC_MODULE_SHIPPING_FLAT_COST' => 'El costo de envío de todos los pedidos utilizando este método de envío.',
-    'CFGTITLE_MODULE_SHIPPING_FLAT_TAX_CLASS' => 'Clase de impuestos',
-    'CFGDESC_MODULE_SHIPPING_FLAT_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
-    'CFGTITLE_MODULE_SHIPPING_FLAT_TAX_BASIS' => 'Base de impuestos',
-    'CFGDESC_MODULE_SHIPPING_FLAT_TAX_BASIS' => 'Sobre qué base se calculan los impuestos sobre el envío. Las opciones son<br>Envío - Basado en la dirección de envío de los clientes<br>Facturación basada en la dirección de facturación de los clientes<br>Tienda - Basado en la dirección de la Tienda si la facturación/Zona de envío es igual a la zona de Tienda',
-    'CFGTITLE_MODULE_SHIPPING_FLAT_ZONE' => 'Zona de envío',
-    'CFGDESC_MODULE_SHIPPING_FLAT_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
-    'CFGTITLE_MODULE_SHIPPING_FLAT_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_SHIPPING_FLAT_SORT_ORDER' => 'Orden de visualización.',
-// eof constant configuration titles and descriptions for flat shipping
+    'MODULE_SHIPPING_FREEOPTIONS_TEXT_TITLE' => 'Opciones de envío gratis',
+    'MODULE_SHIPPING_FREEOPTIONS_TEXT_DESCRIPTION' => '
+El módulo Free Shipping Options es para mostrar una opción de envío gratis cuando hay otros módulos de envío mostrados.
+Puede depender en: Siempre Mostrado, Total de Pedido, Peso de Pedido, Unidades del Pedido. El módulo Free Shipping Options no se muestra cuando Free Shipper esta mostrado.<br><br>Fijando Total >= 0,00 y <= nada (dejar en blanco) activará este módulo para mostrarse con todos los otros módulo, aparte del Free Shipping - freeshipper.<br><br>
+NOTA: Si deja todos los campos de Total, Peso y Unidades en blanco desactivará el módulo.<br><br>
+NOTA: Las opciones de envío gratuito no se muestran si se utiliza el envío gratuito basado en un peso 0, lo que significa que el envío gratuito es gratuito.
+Ve: freeshipper',
+    'MODULE_SHIPPING_FREEOPTIONS_TEXT_WAY' => 'Envío gratuito',
+// bof constant configuration titles and descriptions for freeoptions shipping
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_STATUS' => 'Habilitar envío gratuito',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_STATUS' => 'El módulo Free Shipping Options es para mostrar una opción de envío gratis cuando hay otros módulos de envío mostrados. Puede depender en: Siempre Mostrado, Total de Pedido, Peso de Pedido, Unidades del Pedido.
+El módulo Free Shipping Options no se muestra cuando Free Shipper esta mostrado.<br><br>Fijando Total >= 0,00 y <= nada (dejar en blanco) activará este módulo para mostrarse con todos los otros módulo, aparte del Free Shipping - freeshipper.<br><br>NOTA: Si deja todos los campos de Total, Peso y Unidades en blanco desactivará el módulo.<br><br>NOTA: Las opciones de envío gratuito no se muestran si se utiliza el envío gratuito basado en un peso 0, lo que significa que el envío gratuito es gratuito. Ve: freeshipper<br><br>¿Quieres ofrecer opciones de tarifa de envío gratis por unidad?',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_COST' => 'Coste de envío',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_COST' => 'El costo de envío será de $0.00',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_HANDLING' => 'Cuota de Manejo',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_HANDLING' => 'Cuota de manejo para este método de envío.',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_TOTAL_MIN' => 'Total >=',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_TOTAL_MIN' => 'Envío gratuito cuando Total >=',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_TOTAL_MAX' => 'Total <=',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_TOTAL_MAX' => 'Envío gratuito cuando Total <=',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_WEIGHT_MIN' => 'Peso >=',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_WEIGHT_MIN' => 'Envío gratuito cuando Peso >=',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_WEIGHT_MAX' => 'Peso <=',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_WEIGHT_MAX' => 'Envío gratuito cuando el peso sea <=',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_ITEMS_MIN' => 'Número de ítems >=',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_ITEMS_MIN' => 'Envío gratuito cuando el artículo cuenta >=',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_ITEMS_MAX' => 'Número de objetos <=',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_ITEMS_MAX' => 'Envío gratuito cuando el artículo cuenta <=',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_TAX_CLASS' => 'Clase de impuestos',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_TAX_BASIS' => 'Base de impuestos',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_TAX_BASIS' => 'Sobre qué base se calculan los impuestos sobre el envío. Las opciones son<br>Envío - Basado en la dirección de envío de los clientes<br>Facturación basada en la dirección de facturación de los clientes<br>Tienda - Basado en la dirección de la Tienda si la facturación/Zona de envío es igual a la zona de Tienda',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_ZONE' => 'Zona de envío',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
+    'CFGTITLE_MODULE_SHIPPING_FREEOPTIONS_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_SHIPPING_FREEOPTIONS_SORT_ORDER' => 'Orden de visualización.',
+// eof constant configuration titles and descriptions for freeoptions shipping
 ];
 
 return $define;
