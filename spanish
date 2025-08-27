@@ -1,33 +1,28 @@
 <?php
 $define = [
-    'MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE' => 'Recoger tienda',
-    'MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION' => 'Recogida del cliente en la tienda',
-    'MODULE_SHIPPING_STOREPICKUP_TEXT_WAY' => 'Entrar',
-    'MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS' => '',
-// bof constant configuration titles and descriptions for Storepickup shipping
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'Habilitar envío de la tienda',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_STATUS' => '¿Quiere ofrecer envío a precios en tienda?',
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_LOCATIONS_LIST' => 'Ubicaciones de recogida',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_LOCATIONS_LIST' => 'Introduzca una lista de ubicaciones, separadas por punto y coma (;).<br>Opcionalmente, puede especificar una tarifa para cada ubicación añadiendo una coma y un importe. Si no se especifica ningún importe, se aplicará el importe genérico de Gastos de Envío de la siguiente configuración.<br><br>Ejemplos:<br>121 Main Street; 20 Church Street<br>Sunnyside, 4.00; Lee Park, 5.00; High Street, 0.00<br>Dallas; Tulsa, 5.00; Phoenix, 0.00<br>Para uso en varios idiomas, consulte la declaración de definición en el archivo de idioma de este módulo.',
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_COST' => 'Coste de envío',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_COST' => 'El costo de envío de todos los pedidos utilizando este método de envío.',
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_TAX_CLASS' => 'Clase de impuestos',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_TAX_BASIS' => 'Base de impuestos',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_TAX_BASIS' => 'Sobre qué base se calcula el impuesto de envío. Las opciones son<br>envío - Basado en la dirección de recogida de la tienda <br>Facturación - Basado en la dirección de facturación de los clientes',
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_ZONE' => 'Zona de envío',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
-    'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_SHIPPING_STOREPICKUP_SORT_ORDER' => 'Orden de visualización.',
-// eof constant configuration titles and descriptions for Storepickup shipping
+    'MODULE_SHIPPING_TABLE_TEXT_TITLE' => 'Tabla de tarifa',
+    'MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION' => 'Tabla de tarifa',
+    'MODULE_SHIPPING_TABLE_TEXT_WAY' => 'Mejor Vía',
+// bof constant configuration titles and descriptions for table shipping
+    'CFGTITLE_MODULE_SHIPPING_TABLE_STATUS' => 'Habilitar método de tabla',
+    'CFGDESC_MODULE_SHIPPING_TABLE_STATUS' => '¿Quiere ofrecer envío con tarifa de mesa?',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_COST' => 'Tabla de envío',
+    'CFGDESC_MODULE_SHIPPING_TABLE_COST' => 'El costo de envío se basa en el costo total o peso de los artículos o el recuento de los artículos. Ejemplo: 25:8.50,50:5.50,etc. Hasta 25 carga 8.50, desde allí hasta 50 carga 5. 0, etc<br>También puedes usar cantidades porcentuales, tales 25:8.50,35:5%,40:9.50,10000:7% para cobrar un valor porcentual del pedido total',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_MODE' => 'Método de Tabla',
+    'CFGDESC_MODULE_SHIPPING_TABLE_MODE' => 'El costo de envío puede ser calculado en base al peso total de los artículos pedidos, el precio total de los artículos pedidos, o el número total de artículos pedidos.',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_HANDLING' => 'Cuota de Manejo',
+    'CFGDESC_MODULE_SHIPPING_TABLE_HANDLING' => 'Cuota de manejo para este método de envío.',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_HANDLING_METHOD' => 'Manejo por orden o por caja',
+    'CFGDESC_MODULE_SHIPPING_TABLE_HANDLING_METHOD' => '¿Quiere cobrar comisión por pedido o por casa?',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_TAX_CLASS' => 'Clase de impuestos',
+    'CFGDESC_MODULE_SHIPPING_TABLE_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_TAX_BASIS' => 'Base de impuestos',
+    'CFGDESC_MODULE_SHIPPING_TABLE_TAX_BASIS' => 'Sobre qué base se calculan los impuestos sobre el envío. Las opciones son<br>Envío - Basado en la dirección de envío de los clientes<br>Facturación basada en la dirección de facturación de los clientes<br>Tienda - Basado en la dirección de la Tienda si la facturación/Zona de envío es igual a la zona de Tienda',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_ZONE' => 'Zona de envío',
+    'CFGDESC_MODULE_SHIPPING_TABLE_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
+    'CFGTITLE_MODULE_SHIPPING_TABLE_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_SHIPPING_TABLE_SORT_ORDER' => 'Orden de visualización.',
+// eof constant configuration titles and descriptions for table shipping
 ];
-
-// MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS is for defining multiple locations/methods on a per-language basis. It is only used if the shopper has selected a language other than the store's default.
-// The content of the MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS definition should be the same as the multiple locations in the shipping module's settings in your admin, just with names changed.
-// Typical formats are:
-// "Location One, 5.00; Location Two, 3.50; Location Three, 0.00"
-// "Location One, Location Two, Location Three"
-// or leave it blank to simply use the same text as defined in the Admin, regardless of language
-// TIP: This should really be left blank for the default language, otherwise the Admin settings field is never used.
 
 return $define;
