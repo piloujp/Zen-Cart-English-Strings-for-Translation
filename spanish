@@ -1,17 +1,18 @@
 <?php
 $define = [
-    'MODULE_PAYMENT_COD_TEXT_TITLE' => 'Efectivo en Entrega',
-    'MODULE_PAYMENT_COD_TEXT_DESCRIPTION' => 'Efectivo en Entrega',
-// bof constant configuration titles and descriptions for payment module cod
-    'CFGTITLE_MODULE_PAYMENT_COD_STATUS' => 'Habilitar el módulo de caja en entrega',
-    'CFGDESC_MODULE_PAYMENT_COD_STATUS' => '¿Quiere aceptar pagos en efectivo a la entrega?',
-    'CFGTITLE_MODULE_PAYMENT_COD_ZONE' => 'Zona de pago',
-    'CFGDESC_MODULE_PAYMENT_COD_ZONE' => 'Si se selecciona una zona, sólo habilite este método de pago para esa zona.',
-    'CFGTITLE_MODULE_PAYMENT_COD_SORT_ORDER' => 'Orden de visualización.',
-    'CFGDESC_MODULE_PAYMENT_COD_SORT_ORDER' => 'Orden de visualización. El más bajo se muestra primero.',
-    'CFGTITLE_MODULE_PAYMENT_COD_ORDER_STATUS_ID' => 'Establecer estado del pedido',
-    'CFGDESC_MODULE_PAYMENT_COD_ORDER_STATUS_ID' => 'Establecer el estado de los pedidos realizados con este módulo de pago a este valor',
-// eof constant configuration titles and descriptions for payment module cod
+    'MODULE_PAYMENT_FREECHARGER_TEXT_TITLE' => 'Pedido gratis',
+    'MODULE_PAYMENT_FREECHARGER_TEXT_DESCRIPTION' => 'No hay ningún cargo para este pedido. Normalmente usado para conceder envío gratuito. Necesario para permitir pagos sin cargo. Requerido para descargas gratuitas.',
+    'MODULE_PAYMENT_FREECHARGER_TEXT_EMAIL_FOOTER' => 'No hay cargos por este pedido.',
+// bof constant configuration titles and descriptions for payment module freecharger
+    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_STATUS' => 'Activar módulo de carga gratuita',
+    'CFGDESC_MODULE_PAYMENT_FREECHARGER_STATUS' => '¿Quieres aceptar pagos de Carga Gratis?',
+    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_SORT_ORDER' => 'Orden de visualización.',
+    'CFGDESC_MODULE_PAYMENT_FREECHARGER_SORT_ORDER' => 'Orden de visualización. El más bajo se muestra primero.',
+    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_ZONE' => 'Zona de pago',
+    'CFGDESC_MODULE_PAYMENT_FREECHARGER_ZONE' => 'Si se selecciona una zona, sólo habilite este método de pago para esa zona.',
+    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_ORDER_STATUS_ID' => 'Establecer estado del pedido',
+    'CFGDESC_MODULE_PAYMENT_FREECHARGER_ORDER_STATUS_ID' => 'Establecer el estado de los pedidos realizados con este módulo de pago a este valor',
+// eof constant configuration titles and descriptions for payment module freecharger
 ];
 
 return $define;
