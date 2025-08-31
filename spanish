@@ -1,24 +1,26 @@
 <?php
 $define = [
-    'MODULE_SHIPPING_ITEM_TEXT_TITLE' => 'Por objeto',
-    'MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION' => 'Por objeto',
-    'MODULE_SHIPPING_ITEM_TEXT_WAY' => 'Mejor Vía',
-// bof constant configuration titles and descriptions for item shipping
-    'CFGTITLE_MODULE_SHIPPING_ITEM_STATUS' => 'Activar envío de artículo',
-    'CFGDESC_MODULE_SHIPPING_ITEM_STATUS' => '¿Quieres ofrecer la tarifa de envío por artículo?',
-    'CFGTITLE_MODULE_SHIPPING_ITEM_COST' => 'Coste de envío',
-    'CFGDESC_MODULE_SHIPPING_ITEM_COST' => 'El costo de envío se multiplicará por el número de artículos en un pedido que utiliza este método de envío.',
-    'CFGTITLE_MODULE_SHIPPING_ITEM_HANDLING' => 'Cuota de Manejo',
-    'CFGDESC_MODULE_SHIPPING_ITEM_HANDLING' => 'Cuota de manejo para este método de envío.',
-    'CFGTITLE_MODULE_SHIPPING_ITEM_TAX_CLASS' => 'Clase de impuestos',
-    'CFGDESC_MODULE_SHIPPING_ITEM_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
-    'CFGTITLE_MODULE_SHIPPING_ITEM_TAX_BASIS' => 'Base de impuestos',
-    'CFGDESC_MODULE_SHIPPING_ITEM_TAX_BASIS' => 'Sobre qué base se calculan los impuestos sobre el envío. Las opciones son<br>Envío - Basado en la dirección de envío de los clientes<br>Facturación basada en la dirección de facturación de los clientes<br>Tienda - Basado en la dirección de la Tienda si la facturación/Zona de envío es igual a la zona de Tienda',
-    'CFGTITLE_MODULE_SHIPPING_ITEM_ZONE' => 'Zona de envío',
-    'CFGDESC_MODULE_SHIPPING_ITEM_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
-    'CFGTITLE_MODULE_SHIPPING_ITEM_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_SHIPPING_ITEM_SORT_ORDER' => 'Orden de visualización.',
-// eof constant configuration titles and descriptions for item shipping
+    'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_TITLE' => 'Por unidad',
+    'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_DESCRIPTION' => 'Por unidad',
+    'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_WAY' => 'Mejor Vía',
+// bof constant configuration titles and descriptions for perweightunit shipping
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_STATUS' => 'Habilitar envío por unidad de peso',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_STATUS' => '¿Quieres ofrecer un envío por unidad de tasa?<br><br>Cantidad de producto * Unidades (productos_peso) * Costo por unidad',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_COST' => 'Coste de envío por unidad',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_COST' => 'NOTA: Cuando utilice este Módulo de Envío, asegúrese de comprobar la configuración del Tare en el Envío/Embalaje y establezca el peso más grande lo suficientemente alto como para manejar el precio, como 5000. 0 y luego ajustar la configuración de paquetes pequeños y grandes, que también se añadirán al precio.<br><br>El costo de envío se utilizará para determinar los cargos de envío basados en: Cantidad de producto * Unidades (productos_peso) * Coste por unidad - en un orden que utiliza este método de envío.',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_HANDLING' => 'Cuota de Manejo',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_HANDLING' => 'Cuota de manejo para este método de envío.',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_HANDLING_METHOD' => 'Manejo por orden o por caja',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_HANDLING_METHOD' => '¿Quiere cobrar comisión por pedido o por casa?',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_TAX_CLASS' => 'Clase de impuestos',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_TAX_BASIS' => 'Base de impuestos',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_TAX_BASIS' => 'Sobre qué base se calculan los impuestos sobre el envío. Las opciones son<br>Envío - Basado en la dirección de envío de los clientes<br>Facturación basada en la dirección de facturación de los clientes<br>Tienda - Basado en la dirección de la Tienda si la facturación/Zona de envío es igual a la zona de Tienda',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_ZONE' => 'Zona de envío',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
+    'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_SORT_ORDER' => 'Orden de visualización.',
+// eof constant configuration titles and descriptions for perweightunit shipping
 ];
 
 return $define;
