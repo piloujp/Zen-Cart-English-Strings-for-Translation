@@ -1,22 +1,24 @@
 <?php
 $define = [
-    'MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE' => '¡ENVÍO GRATUITO!',
-    'MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION' => 'ENVÍO GRATIS',
-    'MODULE_SHIPPING_FREESHIPPER_TEXT_WAY' => 'Sin cargo de entrega',
-// bof constant configuration titles and descriptions for freeshipper shipping
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_STATUS' => 'Activar envío gratuito',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_STATUS' => '¿Quieres ofrecer envío gratis?',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_COST' => 'Coste de envío gratis',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_COST' => '¿Cuál es el coste de envío?',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_HANDLING' => 'Cuota de Manejo',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_HANDLING' => 'Cuota de manejo para este método de envío.',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_TAX_CLASS' => 'Clase de impuestos',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'Zona de envío',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
-    'CFGTITLE_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_SHIPPING_FREESHIPPER_SORT_ORDER' => 'Orden de visualización.',
-// eof constant configuration titles and descriptions for freeshipper shipping
+    'MODULE_SHIPPING_ITEM_TEXT_TITLE' => 'Por objeto',
+    'MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION' => 'Por objeto',
+    'MODULE_SHIPPING_ITEM_TEXT_WAY' => 'Mejor Vía',
+// bof constant configuration titles and descriptions for item shipping
+    'CFGTITLE_MODULE_SHIPPING_ITEM_STATUS' => 'Activar envío de artículo',
+    'CFGDESC_MODULE_SHIPPING_ITEM_STATUS' => '¿Quieres ofrecer la tarifa de envío por artículo?',
+    'CFGTITLE_MODULE_SHIPPING_ITEM_COST' => 'Coste de envío',
+    'CFGDESC_MODULE_SHIPPING_ITEM_COST' => 'El costo de envío se multiplicará por el número de artículos en un pedido que utiliza este método de envío.',
+    'CFGTITLE_MODULE_SHIPPING_ITEM_HANDLING' => 'Cuota de Manejo',
+    'CFGDESC_MODULE_SHIPPING_ITEM_HANDLING' => 'Cuota de manejo para este método de envío.',
+    'CFGTITLE_MODULE_SHIPPING_ITEM_TAX_CLASS' => 'Clase de impuestos',
+    'CFGDESC_MODULE_SHIPPING_ITEM_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de envío.',
+    'CFGTITLE_MODULE_SHIPPING_ITEM_TAX_BASIS' => 'Base de impuestos',
+    'CFGDESC_MODULE_SHIPPING_ITEM_TAX_BASIS' => 'Sobre qué base se calculan los impuestos sobre el envío. Las opciones son<br>Envío - Basado en la dirección de envío de los clientes<br>Facturación basada en la dirección de facturación de los clientes<br>Tienda - Basado en la dirección de la Tienda si la facturación/Zona de envío es igual a la zona de Tienda',
+    'CFGTITLE_MODULE_SHIPPING_ITEM_ZONE' => 'Zona de envío',
+    'CFGDESC_MODULE_SHIPPING_ITEM_ZONE' => 'Si se selecciona una zona, sólo habilite este método de envío para esa zona.',
+    'CFGTITLE_MODULE_SHIPPING_ITEM_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_SHIPPING_ITEM_SORT_ORDER' => 'Orden de visualización.',
+// eof constant configuration titles and descriptions for item shipping
 ];
 
 return $define;
