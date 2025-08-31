@@ -1,30 +1,21 @@
 <?php
 $define = [
-    'MODULE_ORDER_TOTAL_COUPON_TITLE' => 'Cupón de descuento',
-    'MODULE_ORDER_TOTAL_COUPON_HEADER' => TEXT_GV_NAMES . '/Cupón de descuento',
-    'MODULE_ORDER_TOTAL_COUPON_DESCRIPTION' => 'Cupón de descuento',
-    'MODULE_ORDER_TOTAL_COUPON_TEXT_ENTER_CODE' => TEXT_GV_REDEEM,
-    'MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS' => '<p>Escriba el código de su cupón en la casilla "Código del Cupón". El cupón se aplicará cuando pulse en "Siguiente".</p><p> Tenga en cuenta: solo puede utilizar un cupón por pedido.</p>',
-    'MODULE_ORDER_TOTAL_COUPON_TEXT_CURRENT_CODE' => 'Tu código de canje actual: ',
-    'TEXT_COMMAND_TO_DELETE_CURRENT_COUPON_FROM_ORDER' => 'ELIMINAR',
-    'TEXT_REMOVE_REDEEM_COUPON' => 'Cupón de descuento eliminado por la solicitud!',
-    'MODULE_ORDER_TOTAL_COUPON_INCLUDE_ERROR' => ' La inclusión de impuestos = true, sólo debe ocurrir cuando recalcular = Ninguno',
-// bof constant configuration titles and descriptions for order total module ot_coupon
-    'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_STATUS' => 'Este módulo está instalado',
-    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_STATUS' => '',
-    'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_SORT_ORDER' => 'Orden de visualización.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_INC_SHIPPING' => 'Incluye envío',
-    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_INC_SHIPPING' => 'Incluye el envío en el cálculo',
-    'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_INC_TAX' => 'Incluye impuestos',
-    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_INC_TAX' => 'Incluye impuestos en el cálculo.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_CALC_TAX' => 'Recalcular impuestos',
-    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_CALC_TAX' => 'Recalcular impuestos',
-    'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_TAX_CLASS' => 'Clase de impuestos',
-    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_TAX_CLASS' => 'Utilice la siguiente clase de impuesto al tratar el cupón de descuento como nota de crédito.',
-// eof constant configuration titles and descriptions for order total module ot_coupon
+    'MODULE_ORDER_TOTAL_GROUP_PRICING_TITLE' => 'Descuento de grupo',
+    'MODULE_ORDER_TOTAL_GROUP_PRICING_DESCRIPTION' => 'Descuento de grupo',
+// bof constant configuration titles and descriptions for order total module ot_group_pricing
+    'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_STATUS' => 'Este módulo está instalado',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_STATUS' => '',
+    'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_SORT_ORDER' => 'Orden de visualización.',
+    'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_INC_SHIPPING' => 'Incluye envío',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_INC_SHIPPING' => '¿Incluye el valor del envío en cantidad antes del cálculo del descuento?',
+    'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_INC_TAX' => 'Incluye impuestos',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_INC_TAX' => '¿Incluye el valor del impuesto en la cantidad antes del cálculo del descuento?',
+    'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_CALC_TAX' => 'Recalcular impuestos',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_CALC_TAX' => 'Recalcular impuestos',
+    'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_TAX_CLASS' => 'Clase de impuestos',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_TAX_CLASS' => 'Utilice la siguiente clase de impuestos al tratar el Descuento de Grupo como Nota de Crédito.',
+// eof constant configuration titles and descriptions for order total module ot_group_pricing
 ];
-
-$define['MODULE_ORDER_TOTAL_COUPON_REMOVE_INSTRUCTIONS'] = '<p>Para eliminar un cupón de descuento de este pedido, reemplace el código del cupón con: ' . $define['TEXT_COMMAND_TO_DELETE_CURRENT_COUPON_FROM_ORDER'] . '</p>';
 
 return $define;
