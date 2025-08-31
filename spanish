@@ -1,16 +1,7 @@
 <?php
 $define = [
-    'ADMIN_PLUGIN_MANAGER_NAME_FOR_DISPLAYLOGS' => 'Mostrar registros',
-    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_DISPLAYLOGS' => 'Mostrar y administrar archivos de registro Zen Cart.',
-// Display Logs - configuration
-    'CFGTITLE_DISPLAY_LOGS_MAX_DISPLAY' => 'Mostrar registros: Mostrar máximo',
-    'CFGDESC_DISPLAY_LOGS_MAX_DISPLAY' => 'Identificar el número máximo de registros a mostrar. (por defecto: <b>20</b>)',
-    'CFGTITLE_DISPLAY_LOGS_MAX_FILE_SIZE' => 'Mostrar registros: Tamaño máximo de archivo',
-    'CFGDESC_DISPLAY_LOGS_MAX_FILE_SIZE' => 'Identificar el tamaño máximo de cualquier archivo a mostrar. (por defecto: <b>80000</b>)',
-    'CFGTITLE_DISPLAY_LOGS_INCLUDED_FILES' => 'Mostrar registros: Prefijos de archivo incluidos',
-    'CFGDESC_DISPLAY_LOGS_INCLUDED_FILES' => 'Identificar los prefijos <em>de archivo de registro</em> para incluir en la pantalla, separados por el carácter de tubería (|). Cualquier espacio intermedio es eliminado por el código de procesamiento.',
-    'CFGTITLE_DISPLAY_LOGS_EXCLUDED_FILES' => 'Mostrar registros: Prefijos de archivo excluidos',
-    'CFGDESC_DISPLAY_LOGS_EXCLUDED_FILES' => 'Identificar los prefijos del archivo de registro para <em>excluir</em> de la pantalla, separados por el carácter de la tubería (|). Cualquier espacio intermedio es eliminado por el código de procesamiento.',
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_SYSTEMINSPECTION' => 'Inspección del sistema',
+    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_SYSTEMINSPECTION' => 'Lista los cambios en la base de datos que se han hecho a una instalación Zen Cartucho base. (anteriormente llamada ModList)',
 ];
 
 return $define;
