@@ -1,13 +1,13 @@
 <?php
 $define = [
-    'MODULE_ORDER_TOTAL_TAX_TITLE' => 'Impuesto',
-    'MODULE_ORDER_TOTAL_TAX_DESCRIPTION' => 'Impuesto del pedido',
-// bof constant configuration titles and descriptions for order total module ot_tax
-    'CFGTITLE_MODULE_ORDER_TOTAL_TAX_STATUS' => 'Este módulo está instalado',
-    'CFGDESC_MODULE_ORDER_TOTAL_TAX_STATUS' => '',
-    'CFGTITLE_MODULE_ORDER_TOTAL_TAX_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_ORDER_TOTAL_TAX_SORT_ORDER' => 'Orden de visualización.',
-// eof constant configuration titles and descriptions for order total module ot_tax
+    'MODULE_ORDER_TOTAL_TOTAL_TITLE' => 'Total',
+    'MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION' => 'Total del pedido',
+// bof constant configuration titles and descriptions for order total module ot_total
+    'CFGTITLE_MODULE_ORDER_TOTAL_TOTAL_STATUS' => 'Este módulo está instalado',
+    'CFGDESC_MODULE_ORDER_TOTAL_TOTAL_STATUS' => '',
+    'CFGTITLE_MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER' => 'Orden de visualización.',
+// eof constant configuration titles and descriptions for order total module ot_total
 ];
 
 return $define;
