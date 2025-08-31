@@ -1,18 +1,22 @@
 <?php
 $define = [
-    'MODULE_PAYMENT_FREECHARGER_TEXT_TITLE' => 'Pedido gratis',
-    'MODULE_PAYMENT_FREECHARGER_TEXT_DESCRIPTION' => 'No hay ningún cargo para este pedido. Normalmente usado para conceder envío gratuito. Necesario para permitir pagos sin cargo. Requerido para descargas gratuitas.',
-    'MODULE_PAYMENT_FREECHARGER_TEXT_EMAIL_FOOTER' => 'No hay cargos por este pedido.',
-// bof constant configuration titles and descriptions for payment module freecharger
-    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_STATUS' => 'Activar módulo de carga gratuita',
-    'CFGDESC_MODULE_PAYMENT_FREECHARGER_STATUS' => '¿Quieres aceptar pagos de Carga Gratis?',
-    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_SORT_ORDER' => 'Orden de visualización.',
-    'CFGDESC_MODULE_PAYMENT_FREECHARGER_SORT_ORDER' => 'Orden de visualización. El más bajo se muestra primero.',
-    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_ZONE' => 'Zona de pago',
-    'CFGDESC_MODULE_PAYMENT_FREECHARGER_ZONE' => 'Si se selecciona una zona, sólo habilite este método de pago para esa zona.',
-    'CFGTITLE_MODULE_PAYMENT_FREECHARGER_ORDER_STATUS_ID' => 'Establecer estado del pedido',
-    'CFGDESC_MODULE_PAYMENT_FREECHARGER_ORDER_STATUS_ID' => 'Establecer el estado de los pedidos realizados con este módulo de pago a este valor',
-// eof constant configuration titles and descriptions for payment module freecharger
+    'MODULE_PAYMENT_MONEYORDER_TEXT_TITLE' => 'Check/Money Order',
+    'MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION' => 'Los clientes pueden enviar por correo su pago. Su correo electrónico de confirmación de pedido les pedirá a: <br><br>Por favor, haga su cheque o giro postal pagadero a:<br>' . (defined('MODULE_PAYMENT_MONEYORDER_PAYTO') ? MODULE_PAYMENT_MONEYORDER_PAYTO : '<br>(nombre de su tienda)') . '<br><br>Enviar el pago a:<br>' . nl2br(STORE_NAME_ADDRESS) . '<br><br>' . 'Su pedido no se enviará hasta que recibamos el pago.',
+// bof constant configuration titles and descriptions for payment module moneyorder
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_STATUS' => 'Habilitar módulo Check/Money Order',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_STATUS' => '¿Quiere aceptar pagos por cheque/giro monetario?',
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_PAYTO' => 'Pagar a:',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_PAYTO' => '¿A quién se deben pagar los pagos?',
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_SORT_ORDER' => 'Orden de visualización.',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_SORT_ORDER' => 'Orden de visualización. El más bajo se muestra primero.',
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_ZONE' => 'Zona de pago',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_ZONE' => 'Si se selecciona una zona, sólo habilite este método de pago para esa zona.',
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_ORDER_STATUS_ID' => 'Establecer estado del pedido',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_ORDER_STATUS_ID' => 'Establecer el estado de los pedidos realizados con este módulo de pago a este valor',
+// eof constant configuration titles and descriptions for payment module moneyorder
 ];
+if (defined('MODULE_PAYMENT_MONEYORDER_STATUS')) {
+    $define['MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER'] = 'Por favor haga su cheque o giro postal a pagar a:' . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\n" . 'Enviar su pago a:' . "\n" . STORE_NAME_ADDRESS . "\n\n" . 'Su pedido no se enviará hasta que recibamos el pago.';
+}
 
 return $define;
