@@ -1,21 +1,13 @@
 <?php
 $define = [
-    'MODULE_ORDER_TOTAL_SHIPPING_TITLE' => 'Envío',
-    'MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION' => 'Coste de envío del pedido',
-    'FREE_SHIPPING_TITLE' => 'Envío gratuito',
-    'FREE_SHIPPING_DESCRIPTION' => 'Envío gratuito para pedidos superiores a %s',
-// bof constant configuration titles and descriptions for order total module ot_shipping
-    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_STATUS' => 'Este módulo está instalado',
-    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_STATUS' => '',
-    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER' => 'Orden de visualización.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING' => 'Permitir envío gratuito',
-    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING' => '¿Quieres permitir envíos gratuitos?',
-    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_OVER' => 'Envío gratuito para pedidos por encima de',
-    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_OVER' => 'Proporcione envío gratuito para pedidos por encima del monto establecido.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_DESTINATION' => 'Proporcionar envío gratuito para pedidos realizados',
-    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_DESTINATION' => 'Proporcionar envío gratuito para los pedidos enviados al destino establecido.',
-// eof constant configuration titles and descriptions for order total module ot_shipping
+    'MODULE_ORDER_TOTAL_SUBTOTAL_TITLE' => 'Sub-Total',
+    'MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION' => 'Subtotal del pedido',
+// bof constant configuration titles and descriptions for order total module ot_subtotal
+    'CFGTITLE_MODULE_ORDER_TOTAL_SUBTOTAL_STATUS' => 'Este módulo está instalado',
+    'CFGDESC_MODULE_ORDER_TOTAL_SUBTOTAL_STATUS' => '',
+    'CFGTITLE_MODULE_ORDER_TOTAL_SUBTOTAL_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_ORDER_TOTAL_SUBTOTAL_SORT_ORDER' => 'Orden de visualización.',
+// eof constant configuration titles and descriptions for order total module ot_subtotal
 ];
 
 return $define;
