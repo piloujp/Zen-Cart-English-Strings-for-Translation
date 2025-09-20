@@ -1,13 +1,58 @@
 <?php
 $define = [
-    'MODULE_ORDER_TOTAL_TOTAL_TITLE' => 'Total',
-    'MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION' => 'Total del pedido',
-// bof constant configuration titles and descriptions for order total module ot_total
-    'CFGTITLE_MODULE_ORDER_TOTAL_TOTAL_STATUS' => 'Este módulo está instalado',
-    'CFGDESC_MODULE_ORDER_TOTAL_TOTAL_STATUS' => '',
-    'CFGTITLE_MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_ORDER_TOTAL_TOTAL_SORT_ORDER' => 'Orden de visualización.',
-// eof constant configuration titles and descriptions for order total module ot_total
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_ADMIN_TITLE' => 'Authorize.net (SIM)',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_CATALOG_TITLE' => 'Tarjeta de crédito',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_TYPE' => 'Tipo:',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_OWNER' => 'Dueño de la tarjeta:',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_NUMBER' => 'Número de tarjeta:',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_EXPIRES' => 'Expiry Date:',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_CVV' => 'Número CVV:',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_POPUP_CVV_LINK' => '¿Qué es esto?',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_OWNER' => '* El nombre del propietario de la tarjeta de crédito debe ser al menos ' . CC_OWNER_MIN_LENGTH . ' Caracteres.\n',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_NUMBER' => '* El número de tarjeta de crédito debe ser al menos ' . CC_NUMBER_MIN_LENGTH . ' Caracteres.\n',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_CVV' => '*El número CVV de 3 o 4 dígitos debe ingresarse desde el reverso de la tarjeta de crédito.\n',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE' => 'Ha habido un error al procesar su tarjeta de crédito. Por favor, inténtelo de nuevo.',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE' => 'Tu tarjeta de crédito ha sido rechazada. Por favor, prueba con otra tarjeta o ponte en contacto con tu banco para más información.',
+    'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR' => '¡Error de tarjeta de crédito!',
+// bof constant configuration titles and descriptions for payment module authorizenet
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'Habilitar el módulo Authorize.net',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STATUS' => '¿Quieres aceptar los pagos de Authorize.net?',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_LOGIN' => 'Login ID',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_LOGIN' => 'El ID de inicio de sesión de la API utilizado para su cuenta Authorize.net.',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_TXNKEY' => 'Clave de transacción',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_TXNKEY' => 'Llave de transacción utilizada para enviar datos de transacción.<br>Ver <a href=\"https://support.authorize.net/s/article/How-do-I-obtain-my-API-Login-ID-and-Transaction-Key\" rel=\"noopener\" target=\"_blank\">Cómo hacer-I-obtain-my-API-Login-ID-and-Transaction-Key</a>',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_SECURITYKEY' => 'Clave de seguridad',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SECURITYKEY' => 'Clave de seguridad utilizada para validar transacciones (128 caracteres).<br>Ver <a href=\"https://support.authorize.net/s/article/What-is-a-Signature-Key\" rel=\"noopener\" target=\"_blank\">What-is-a-Signature-Key</a> para obtener instrucciones.',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_TESTMODE' => 'Modo de transacción',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_TESTMODE' => 'Modo de transacción usado para procesar pedidos.<br><strong>Producción</strong>=Procesamiento Live con credenciales reales de cuenta<br><strong>Prueba</strong>=Simulaciones con credenciales de cuenta real<br><strong>Sandbox</strong>=utiliza una clave especial de transacción sandbox para realizar pruebas especiales de respuestas de transacciones de éxito/fallo (obtener credenciales sandbox a través de un desarrollador <a href=\"https://developer.authorize.net/hello_world/sandbox/\">. uthorize.net</a>)',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => 'Moneda soportada',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_CURRENCY' => '¿Qué moneda está configurada para aceptar su cuenta Authnet Gateway?<br>(Las compras en cualquier otra moneda se preconvertirán a esta moneda antes de enviar usando los tipos de cambio en el administrador de su tienda.)',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_METHOD' => 'Método de transacción',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_METHOD' => 'Método de transacción usado para procesar pedidos',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AUTHORIZATION_TYPE' => 'Tipo de autorización',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AUTHORIZATION_TYPE' => '¿Quiere que las transacciones enviadas con tarjeta de crédito sean autorizadas sólo o capturadas inmediatamente?',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_USE_CVV' => 'Solicitar número CVV',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_USE_CVV' => '¿Quieres preguntar al cliente por el número CVV de la tarjeta',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_EMAIL_CUSTOMER' => 'Notificaciones del cliente',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_EMAIL_CUSTOMER' => '¿Debe enviar un correo electrónico a Authorize.Net un recibo al cliente?',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_ZONE' => 'Zona de pago',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_ZONE' => 'Si se selecciona una zona, sólo habilite este método de pago para esa zona.',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_ORDER_STATUS_ID' => 'Establecer estado del pedido',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_ORDER_STATUS_ID' => 'Establecer el estado de los pedidos realizados con este módulo de pago a este valor',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => 'Orden de visualización.',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_SORT_ORDER' => 'Orden de orden de mostrar opciones de pago al cliente. El más bajo se muestra primero.',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_GATEWAY_MODE' => 'Modo Gateway',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_GATEWAY_MODE' => '¿Dónde debe recogerse la información de la tarjeta de crédito del cliente?<br><b>en el sitio</b> = aquí (requiere SSL)<br><b>offsite</b> = authorize.net site',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => 'Activar almacenamiento de bases de datos',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => '¿Desea guardar los datos de las comunicaciones de la pasarela en la base de datos?',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'Modo de depuración',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => '¿Le gustaría activar el modo de depuración? Puede enviar un registro detallado de transacciones fallidas al propietario de la tienda.',
+// eof constant configuration titles and descriptions for payment module authorizenet
 ];
 
+if (defined('MODULE_PAYMENT_AUTHORIZENET_STATUS') && MODULE_PAYMENT_AUTHORIZENET_STATUS == 'True') {
+    $define['MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION'] = '<a rel="noreferrer noopener" target="_blank" href="https://account.authorize.net/">Login del comerciante Authorize.net</a>' . (MODULE_PAYMENT_AUTHORIZENET_TESTMODE != 'Producción' ? '<br><br>Información de prueba:<br><b>Números de tarjetas de crédito con aprobación automática:</b><br>Visa#: 4007000000027<br>MC#: 5424000000000015<br>Discover#: 6011000000000012<br>AMEX#: 370000000000002<br><br><b>Nota:</b> Estos números de tarjeta de crédito mostrarán un rechazo en el modo en vivo y una aprobación en el modo de prueba. Se puede usar cualquier fecha futura como fecha de vencimiento, y cualquier número de 3 o 4 dígitos (AMEX) como código CVV.<br><br><b>Número de tarjeta de crédito de rechazo automático:</b><br><br>Card #: 4222222222222<br><br> Este número de tarjeta se puede utilizar para recibir avisos de rechazo para fines de prueba.' : '') . '<br><br><strong>SETTINGS</strong><br>Tu "respuesta" y "recibo" y configuración de URL "relay" en tu Autorizar. et Perfil de comerciante puede dejarse BLANK, o si es necesario puede establecer la "URL de repetidor" para apuntar a https://su_dominio. om/foldername/index.php?main_page=checkout_process<br><br>Si tiene problemas con esto, consulte <a href="https://docs.zen-cart.com/user/payment/authorizenet_sim/" rel="noreferrer noopener" target="_blank">el artículo FAQ de configuración de la SIM</a> para instrucciones detalladas de configuración.';
+} else {
+    $define['MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION'] = '<a rel="noreferrer noopener" target="_blank" href="https://reseller.authorize.net/application?resellerId=10023">Haga clic aquí para registrarse en una cuenta</a><br><br><a rel="noreferrer noopener" target="_blank" href="https://account.authorize.net/">Haga clic para iniciar sesión en el Autorizar. y área de comerciante</a><br><br><strong>Requerido:</strong><br><hr>*<strong>Autorizar. et Cuenta</strong> (ver enlace de arriba para registrarse)<br>*<strong>Autorizar. y nombre de usuario y clave de transacción</strong> disponibles en su área de comerciante<br><br>Ver <a href="https://docs.zen-cart.com/user/payment/authorizenet_sim/" rel="noreferrer noopener" target="_blank">el artículo FAQ de configuración de SIM</a> para instrucciones detalladas de configuración.';
+}
 return $define;
