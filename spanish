@@ -1,27 +1,21 @@
 <?php
 $define = [
-    'MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE' => 'Tarifa de pedido baja',
-    'MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION' => 'Tarifa de pedido baja',
-// bof constant configuration titles and descriptions for order total module ot_loworderfee
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => 'Este módulo está instalado',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => '',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER' => 'Ordenar',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_SORT_ORDER' => 'Orden de visualización.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_LOW_ORDER_FEE' => 'Permitir tarifa de pedido bajo',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_LOW_ORDER_FEE' => '¿Quieres permitir bajas tarifas de pedido?',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_ORDER_UNDER' => 'Tarifa del pedido para los pedidos bajo',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_ORDER_UNDER' => 'Agregue la cuota de pedido baja a los pedidos por debajo de esta cantidad.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_FEE' => 'Tarifa del pedido',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_FEE' => 'Para el cálculo del porcentaje - incluye un ejemplo del %: 10%<br>Para una cantidad plana simplemente ingrese la cantidad - Ejemplo: 5 por $5.00',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_DESTINATION' => 'Adjuntar tarifa de pedido bajo en pedidos realizados',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_DESTINATION' => 'Adjuntar una cuota de pedido bajo para los pedidos enviados al destino establecido.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_TAX_CLASS' => 'Clase de impuestos',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_TAX_CLASS' => 'Utilice la siguiente clase de impuestos en la tarifa de bajo pedido.',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_VIRTUAL' => 'Sin tarifa de pedido bajo en productos virtuales',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_VIRTUAL' => 'No cobra comisión de pedido bajo cuando el carrito es sólo productos virtuales',
-    'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'No hay tarifa de pedido bajo en cupones de regalo',
-    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_GV' => 'No cobra comisión de pedido bajo cuando el carrito es sólo cupones de regalo',
-// eof constant configuration titles and descriptions for order total module ot_loworderfee
+    'MODULE_ORDER_TOTAL_SHIPPING_TITLE' => 'Envío',
+    'MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION' => 'Coste de envío del pedido',
+    'FREE_SHIPPING_TITLE' => 'Envío gratuito',
+    'FREE_SHIPPING_DESCRIPTION' => 'Envío gratuito para pedidos superiores a %s',
+// bof constant configuration titles and descriptions for order total module ot_shipping
+    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_STATUS' => 'Este módulo está instalado',
+    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_STATUS' => '',
+    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER' => 'Ordenar',
+    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_SORT_ORDER' => 'Orden de visualización.',
+    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING' => 'Permitir envío gratuito',
+    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING' => '¿Quieres permitir envíos gratuitos?',
+    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_OVER' => 'Envío gratuito para pedidos por encima de',
+    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_FREE_SHIPPING_OVER' => 'Proporcione envío gratuito para pedidos por encima del monto establecido.',
+    'CFGTITLE_MODULE_ORDER_TOTAL_SHIPPING_DESTINATION' => 'Proporcionar envío gratuito para pedidos realizados',
+    'CFGDESC_MODULE_ORDER_TOTAL_SHIPPING_DESTINATION' => 'Proporcionar envío gratuito para los pedidos enviados al destino establecido.',
+// eof constant configuration titles and descriptions for order total module ot_shipping
 ];
 
 return $define;
