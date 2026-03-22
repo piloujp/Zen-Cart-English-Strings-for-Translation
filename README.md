@@ -1,5 +1,5 @@
 # Zen Cart English Strings for Translation
-Zen Cart 2.1.0 English strings extracted and converted from database or database install files to make admin menus translation easier.
+Zen Cart 2.2.1 English strings extracted and converted from database or database install files to make admin menus translation easier.
 
 To use:
 - Rename all `english` folders to your new language.
