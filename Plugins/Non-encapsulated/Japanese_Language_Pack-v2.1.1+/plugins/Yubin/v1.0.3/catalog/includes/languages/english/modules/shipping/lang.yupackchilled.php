@@ -1,0 +1,38 @@
+<?php
+$define = [
+    'MODULE_SHIPPING_YUPACKCHILLED_TEXT_TITLE' =>        'Refrigerated Yu-Pack 1-4 days',
+    'MODULE_SHIPPING_YUPACKCHILLED_TEXT_DESCRIPTION' =>  'Japanese post\'s Refrigerated Yu-Pack\' settings',
+    'MODULE_SHIPPING_YUPACKCHILLED_TEXT_WAY_NORMAL' =>   'Standard',
+    'MODULE_SHIPPING_YUPACKCHILLED_TEXT_NOTAVAILABLE' => 'Service is not available between these areas.',
+//bof constant configuration titles and descriptions for Refrigerated Yu-Pack Shipping
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_STATUS' => 'Enable Refrigerated Yu-Pack shipping method',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_STATUS' => 'Do you want to offer Refrigerated Yu-Pack rate shipping?',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_CATEGORIES' => 'Enable or Disable Refrigerated Yu-Pack shipping method for some categories',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_CATEGORIES' => 'Do you want to enable or disable Refrigerated Yu-Pack shipping for some categories?',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_CAT_LIST' => 'Enable/Disable categories IDs list',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_CAT_LIST' => 'Comma separated list of categoies IDs to be enabled or disabled, depending on above option.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_PRODUCTS' => 'Enable or Disable Refrigerated Yu-Pack shipping method for some products',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_PRODUCTS' => 'Do you want to enable or disable Refrigerated Yu-Pack shipping for some products?',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_PROD_LIST' => 'Enable/Disable products IDs list',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_PROD_LIST' => 'Comma separated list of products IDs to be enables or disabled, depending on above option.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_HANDLING' => 'Handling Fee',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_HANDLING' => 'Handling fee for this shipping method.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_MAX_WEIGHT' => 'Max shipping weight',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_MAX_WEIGHT' => 'Maximum weight that can be ship with this method.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_MAX_GIRTH' => 'Max shipping girth',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_MAX_GIRTH' => 'Maximum size (girth) that can be ship with this method.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_FREE_SHIPPING' => 'Free shipping settings',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_FREE_SHIPPING' => 'Would you like to activate the free shipping setting?Select False to give priority to other modules [Shipping cost]-[Free options]...',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_OVER' => 'Minimum order for free shipping',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_OVER' => 'If you purchase more than the set amount, shipping will be free.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_TAX_CLASS' => 'Tax Class',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_TAX_CLASS' => 'Use the following tax class on the shipping fee.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_TAX_BASIS' => 'Tax Basis',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_TAX_BASIS' => 'On what basis is Shipping Tax calculated. Options are<br>Shipping - Based on customers Shipping Address<br>Billing Based on customers Billing address<br>Store - Based on Store address if Billing/Shipping Zone equals Store zone',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_ZONE' => 'Shipping Zone',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_ZONE' => 'If a zone is selected, only enable this shipping method for that zone.',
+    'CFGTITLE_MODULE_SHIPPING_YUPACKCHILLED_SORT_ORDER' => 'Sort Order',
+    'CFGDESC_MODULE_SHIPPING_YUPACKCHILLED_SORT_ORDER' => 'Sort order of display.',
+//eof constant configuration titles and descriptions for Refrigerated YuPack Shipping
+];
+return $define;
