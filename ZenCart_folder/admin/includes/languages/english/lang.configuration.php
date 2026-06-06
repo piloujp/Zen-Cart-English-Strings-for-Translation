@@ -626,7 +626,7 @@ $define = [
     'CFGTITLE_PRODUCTS_OPTIONS_TYPE_READONLY_IGNORED' => 'Read Only option type - Ignore for Add to Cart',
     'CFGDESC_PRODUCTS_OPTIONS_TYPE_READONLY_IGNORED' => 'When a Product only uses READONLY attributes, should the Add to Cart button be On or Off?<br>0= OFF<br>1= ON',
     'CFGTITLE_SESSION_WRITE_DIRECTORY' => 'Session Directory',
-    'CFGDESC_SESSION_WRITE_DIRECTORY' => 'This should point to the folder specified in your DIR_FS_SQL_CACHE setting in your configure.php files.',
+    'CFGDESC_SESSION_WRITE_DIRECTORY' => 'This should point to the folder specified in your DIR_FS_SQL_CACHE setting in your configure.php file.',
     'CFGTITLE_SESSION_USE_FQDN' => 'Cookie Domain',
     'CFGDESC_SESSION_USE_FQDN' => 'If True the full domain name will be used to store the cookie, e.g. www.mydomain.com. If False only a partial domain name will be used, e.g. mydomain.com. If you are unsure about this, always leave set to true.',
     'CFGTITLE_SESSION_FORCE_COOKIE_USE' => 'Force Cookie Use',
